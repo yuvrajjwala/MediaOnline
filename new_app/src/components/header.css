@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.header {
+    background-image: url('../assets/img/home/Hero.png');
+    min-height: 1024px;
+    padding-top: 0.5px;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.header nav ul {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header nav ul li {
+    list-style: none;
+    /* margin: 1rem; */
+
+}
+
+.header .headText {
+    font-family: 'Inter';
+    font-style: normal;
+    width: 60%;
+    font-weight: 300;
+    font-size: 150px;
+    margin-left: 10rem;
+    margin-top: 8rem;
+    line-height: 174px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.header .headText span {
+    font-weight: bold;
+}
+
+.header .subText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    /* line-height: 174px; */
+    margin-top: 2rem;
+    /* or 694% */
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: -1px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+.header button {
+    margin-left: 10rem;
+    margin-top: 2rem;
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 167px;
+    border: none;
+    height: 53px;
+    box-sizing: border-box;
+}
+
+.header button span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    background: linear-gradient(90deg, #00888F 0%, #770370 111.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
