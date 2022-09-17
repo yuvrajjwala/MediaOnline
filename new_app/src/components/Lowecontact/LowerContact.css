@@ -1,0 +1,43 @@
+.heading-lower-contact{
+   background: linear-gradient(90.71deg, #0098BB 1.97%, #6e02697b 31.53%), #000000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 800px;
+    display: block;
+    margin: auto;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.lower-conten-box{
+   display: flex;
+   justify-content: space-evenly;
+   background-image: url("../../assets/img/home/bg-lower-contact.png");
+   background-position: right;
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-bottom: 150px;
+}
+.lower-content-left{
+   width: 40vw;
+   max-width:420px;
+   font-weight: bold;
+   font-size: 24.5px;
+
+}
+.lower-content-left img{
+   width: 400px;
+   margin-top: 20px;
+}
+#get-demo{
+   position: relative;
+}
+.lower-conter-right{
+   width: 40vw;
+   max-width: 450px;
+}
