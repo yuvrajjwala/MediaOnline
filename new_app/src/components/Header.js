@@ -1,12 +1,17 @@
 import React from "react";
 import './header.css' ;
 import logo from '../assets/img/home/Rectangle62.png';
+import back from '../assets/img/home/Lines.png'
 
 
 function Header(props){
     return(
     <>
         <div className="header">
+            <div id="back">
+                <img src={back} alt='' id="back1"/>
+                <img src={back} alt='' id="back2"/>
+            </div>
             <nav>
                 <div className="logo"><img src={logo} alt=""/></div>
                 <ul>
