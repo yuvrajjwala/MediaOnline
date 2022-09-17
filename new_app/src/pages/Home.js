@@ -11,6 +11,11 @@ import cash from '../assets/img/home/cash.png'
 import hamburger from '../assets/img/home/hamburger.png'
 import overflow from '../assets/img/home/071.png'
 import privateMarket from '../assets/img/home/PrivateMarketplace.png'
+import timeline from '../assets/img/home/Timeline.png'
+import circle_out from '../assets/img/home/Ellipse3.png'
+import circle_mid from '../assets/img/home/Ellipse2.png'
+import circle_in from '../assets/img/home/Ellipse1.png'
+import logo1 from '../assets/img/home/MaskGroup.png'
 function Home() {
     return (
         <>
@@ -134,12 +139,34 @@ function Home() {
                         <div id='arr6-2-2'>
                             <div id='arr6-2-2-1'>Channels</div>
                             <div id='arr6-2-2-2'>Brands can buy PMP inventory easily and gain immediate access to 1400 pre-negotiated deals for connected TV.
-</div>
+                            </div>
                             <button id='arr6-2-2-3'>LEARN MORE</button>
                         </div>
                     </div>
                 </div>
 
+            </div>
+
+
+            <div id='arr8-0'>How did we get here?</div>
+            <div id='arr8'>
+                <div id='arr8-1'>
+                    <img src={timeline} alt='' />
+                </div>
+                <div id='arr8-2'>
+                    <div id='arr8-2-1'>
+                        <img src={circle_out} alt='' id='arr8-img1' className='img-absolute' />
+                        <img src={circle_out} alt='' id='arr8-img2' className='img-absolute' />
+                        <img src={circle_out} alt='' id='arr8-img3' className='img-absolute' />
+                        <img src={logo1} alt='' id='arr8-img4' className='img-absolute' />
+                    </div>
+                    <div id='arr8-2-2'>
+                        <div id='arr8-2-2-1'>We are prepared for a world without third-party cookies, are you?</div>
+                        <button id='arr8-2-2-2'>Learn More</button>
+                        <div id='arr8-2-2-3'>9MO is developing new tools, features and strategy partnerships to drive scale and performance for effective privacy-compliant advertising solutions.
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )

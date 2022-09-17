@@ -2,7 +2,7 @@
 
 .header {
     /* background-image: url('../assets/img/home/Hero.png'); */
-    background: linear-gradient(180deg, #00888F 0%, #2E012B 88.53%);
+   
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
     min-height: 1024px;
     padding-top: 0.5px;
@@ -104,21 +104,24 @@ nav {
 
 #back{
     display: flex;
+    background: linear-gradient(180deg, #00888F 0%, #2E012B 88.53%);
     position: absolute;
-    top: -200px
-}
-
-#back1{
-    top: -220px;
+    /* top: -200px; */
+    height: 100%;
+    z-index: -1;
 }
 
 
 #back1 {
-    animation: move1 40s linear infinite;
+    animation: move1 15s linear infinite;
+    opacity: 0.1;
+    width: 101vw;
 }
 
 #back2 {
-    animation: move2 40s linear infinite;
+    animation: move2 15s linear infinite;
+    opacity: 0.1;
+    width: 101vw;
 }
 
 
