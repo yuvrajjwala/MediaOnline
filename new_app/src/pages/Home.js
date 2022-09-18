@@ -20,7 +20,8 @@ function Home() {
     return (
         <>
             <Header text1="Privacy and Performance" text2=" By Design" subtext1="Smart TV add management made simple" buttonText="GET STARTED" />
-            <div id='arr2'>
+            <div data-aos="fade-up"
+     data-aos-duration="1000" id='arr2'>
                 <div id='arr2-1'>Built for the future of smart TV Advertising</div>
                 <img src={image1} alt='' id="arr2-3" />
                 <div id='arr2-2'>
@@ -33,7 +34,8 @@ function Home() {
             </div>
 
             <div id='arr3'>
-                <div id='arr3-1'>THE ONES WHO BELIEVE IN US</div>
+                <div data-aos="fade-up"
+     data-aos-duration="1000" id='arr3-1'>THE ONES WHO BELIEVE IN US</div>
                 <div id='arr3-2'>
                     <img id='arr3-2-1' src={image2} alt="" />
                     <img id='arr3-2-2' src={image2} alt="" />
