@@ -13,48 +13,69 @@ import './Testimonial.css'
 const images = [tv1, tv2, tv];
 
 function Testimonial() {
-  const NextArrow = ({ onClick }) => {
+   const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      infinite: true,
+      lazyLoad: true,
+      slidesToShow: 3,
+      centerMode: true,
+      centerPadding: 0,
+    };
+  
+    const slidesData = [
+      {
+        id: 1,
+        title: 'repellendus id ullam',
+        label: 'Dolorem offs temporibus.'
+      }, {
+        id: 2,
+        title: 'excepturi consequatur est',
+        label: 'Officia non pt do et neque.'
+      }, {
+        id: 3,
+        title: 'eius doloribus blanditiis',
+        label: 'Ut recusandae vee moles .'
+      }, {
+        id: 4,
+        title: 'nihil voluptates delectus',
+        label: 'Qui vel consequatur recus.'
+      }, {
+        id: 5,
+        title: 'nemo dolorem necessitatibus',
+        label: 'Placeat odit velue atem.'
+      }, {
+        id: 6,
+        title: 'dolorem quibusdam quasi',
+        label: 'Adipisci officdiandae.'
+      },
+    ];
+  
     return (
-      <div className="arrow next" onClick={onClick}>
-        <FaArrowRight />
+      <div className="App">
+  
+        <div className="slider-wrapper">
+  
+          <Slider {...settings}>
+  
+            {slidesData.map((slide) =>
+  
+              <div className="slick-slide" key={slide.id}>
+                <h2 className="slick-slide-title">{slide.title}</h2>
+                <img className="slick-slide-image" src={`https://picsum.photos/800/400?img=${slide.id}`} />
+                <label className="slick-slide-label">{slide.label}</label>
+              </div>
+  
+            )}
+  
+          </Slider>
+  
+        </div>
+  
       </div>
     );
-  };
-
-  const PrevArrow = ({ onClick }) => {
-    return (
-      <div className="arrow prev" onClick={onClick}>
-        <FaArrowLeft />
-      </div>
-    );
-  };
-
-  const [imageIndex, setImageIndex] = useState(0);
-
-  const settings = {
-    infinite: true,
-    lazyLoad: true,
-    speed: 300,
-    slidesToShow: 3,
-    centerMode: true,
-    centerPadding: 0,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    beforeChange: (current, next) => setImageIndex(next),
-  };
-
-  return (
-    <div className="app1">
-      <Slider {...settings}>
-        {images.map((img, idx) => (
-          <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-            <img src={img} alt={img} />
-            <div>HELLO I AM YUVRAJ<br></br>MY NAME IS YUVRAJ</div>
-          </div>
-        ))}
-      </Slider>
-    </div>
-  );
-}
+  }
 
 export default Testimonial;
