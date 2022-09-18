@@ -16,12 +16,14 @@ import circle_out from '../assets/img/home/Ellipse3.png'
 import circle_mid from '../assets/img/home/Ellipse2.png'
 import circle_in from '../assets/img/home/Ellipse1.png'
 import logo1 from '../assets/img/home/MaskGroup.png'
+import Testimonial from '../components/Testimonial/Testimonial'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init()
 function Home() {
     return (
         <>
+        <Testimonial/>
             <Header text1="Privacy and Performance" text2=" By Design" subtext1="Smart TV add management made simple" buttonText="GET STARTED" />
             <div data-aos="fade-up"
      data-aos-duration="1000"  id='arr2'>
@@ -177,6 +179,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+            
         </>
     )
 }
