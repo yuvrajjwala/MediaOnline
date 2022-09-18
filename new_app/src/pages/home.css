@@ -363,6 +363,10 @@
     top: -20rem;
     left: -5rem;
     position: absolute;
+    transition-duration: 1.5s;
+}
+#arr6-img:hover{
+    transform: scale(1.05);
 }
 
 #arr6-1-2 .subHeading {
@@ -426,8 +430,13 @@
     margin: 3rem auto;
     margin-bottom: 0px;
     color: #FFFFFF;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
+#arr6-2-2-3:hover{
+    transform: scale(1.07);
+}
 
 .timehead {
     font-family: 'Inter';
@@ -583,10 +592,13 @@
     margin: 1rem 0px;
     text-align: center;
     text-transform: uppercase;
-
+    transition-duration: 0.5s;
     color: #FFFFFF;
+    cursor: pointer;
 }
-
+#arr8-2-2-2:hover{
+    transform: scale(1.05);
+}
 #arr8-2-2-3 {
     font-family: 'Inter';
     font-style: normal;

@@ -16,12 +16,15 @@ import circle_out from '../assets/img/home/Ellipse3.png'
 import circle_mid from '../assets/img/home/Ellipse2.png'
 import circle_in from '../assets/img/home/Ellipse1.png'
 import logo1 from '../assets/img/home/MaskGroup.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init()
 function Home() {
     return (
         <>
             <Header text1="Privacy and Performance" text2=" By Design" subtext1="Smart TV add management made simple" buttonText="GET STARTED" />
             <div data-aos="fade-up"
-     data-aos-duration="1000" id='arr2'>
+     data-aos-duration="1000"  id='arr2'>
                 <div id='arr2-1'>Built for the future of smart TV Advertising</div>
                 <img src={image1} alt='' id="arr2-3" />
                 <div id='arr2-2'>
@@ -33,16 +36,17 @@ function Home() {
                 </div>
             </div>
 
-            <div id='arr3'>
-                <div data-aos="fade-up"
-     data-aos-duration="1000" id='arr3-1'>THE ONES WHO BELIEVE IN US</div>
+            <div data-aos="fade-up"
+     data-aos-duration="1000" id='arr3'>
+                <div  id='arr3-1'>THE ONES WHO BELIEVE IN US</div>
                 <div id='arr3-2'>
                     <img id='arr3-2-1' src={image2} alt="" />
                     <img id='arr3-2-2' src={image2} alt="" />
                 </div>
             </div>
 
-            <div id="arr4">
+            <div data-aos="fade-up"
+     data-aos-duration="1000" id="arr4">
                 <div id='arr4-1'>
                     <div id='arr4-1-1'>CHANNELS</div>
                     <div id='arr4-1-2'>Safeguard your audience and your
@@ -57,7 +61,8 @@ function Home() {
 
 
 
-            <div id='arr5'>
+            <div data-aos="fade-up"
+     data-aos-duration="1000" id='arr5'>
                 <div id='arr5-1'>
                     <div id='arr5-1-1'>
                         <div className='div-flex' id='arr5-1-1-1'>
@@ -110,7 +115,8 @@ function Home() {
                 </div>
             </div>
 
-            <div id='arr6'>
+            <div data-aos="fade-up"
+     data-aos-duration="1000" id='arr6'>
                 <div id='arr6-1'>
                     <img src={overflow} alt='' id='arr6-img' />
                     <div id='arr6-1-1-1'>Brands</div>
@@ -150,7 +156,8 @@ function Home() {
             </div>
 
 
-            <div id='arr8-0'>How did we get here?</div>
+            <div data-aos="fade-up"
+     data-aos-duration="1000" id='arr8-0'>How did we get here?</div>
             <div id='arr8'>
                 <div id='arr8-1'>
                     <img src={timeline} alt='' />

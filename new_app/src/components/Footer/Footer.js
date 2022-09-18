@@ -17,15 +17,15 @@ const Footer = () => {
                <div>
                   <div className='quick-links'>
                      <div className='quicklinks-container'>
-                        HOME
-                        <span id='clients1'>CLIENTS</span><br></br>
+                        <span className='link-footer'>HOME</span>
+                        <span className='link-footer' id='clients1'>CLIENTS</span><br></br>
                      </div>
                      <div className='quicklinks-container'>
-                        CHANNELS
-                        <span id='clients2'>INFLUENCERS</span><br></br>
+                        <span className='link-footer'>CHANNELS</span>
+                        <span className='link-footer' id='clients2'>INFLUENCERS</span><br></br>
                      </div>
-                     BRAND
-                     <span id='clients3'>RESOURCES</span>
+                     <span className='link-footer'>BRAND</span>
+                     <span className='link-footer'  id='clients3'>RESOURCES</span>
                   </div>
                   <div></div>
                </div>

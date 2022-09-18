@@ -56,6 +56,20 @@
 }
 .footer-bottom ul li{
    margin-left: 50px;
+   transition-duration: 0.5s;
+}
+.footer-bottom ul li:hover{
+   transform: scale(1.05);
+   cursor: pointer;
+   color: white;
+}
+.link-footer{
+   cursor: pointer;
+   transition-duration: 0.5s;
+}
+.link-footer:hover{
+   transform: scale(1.35) !important;
+   color: white;
 }
 .footer-bottom{
    padding-bottom: 50px;

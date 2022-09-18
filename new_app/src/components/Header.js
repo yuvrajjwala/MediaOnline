@@ -31,7 +31,7 @@ function Header(props){
      data-aos-duration="2000" className="headText">{props.text1} <span>{props.text2}</span></div>
             <div className="subText">{props.subtext1}</div>
 
-            <button><span>{props.buttonText}</span></button>
+            <button id="get-started"><span>{props.buttonText}</span></button>
         </div>
     </>)
 }
