@@ -175,3 +175,41 @@ nav {
     }
 
 }
+
+
+#wave{
+    position: absolute;
+    height: 200vw;
+    width: 50px;
+    background-color:rgba(255,255,255,0.4);
+    top: 0px;
+    left: 0px;
+    opacity: 0.25;
+    border-radius: 20px;
+    rotate: 36deg;
+    box-shadow: 0 0 5px 0px rgba(255,255,255,0.3),
+    0 0 25px 0px rgba(255,255,255,0.3),
+    0 0 50px 0px rgba(255,255,255,0.3),
+    0 0 100px 0px rgba(255,255,255,0.3),
+    0 0 200px 0px rgba(255,255,255,0.1),
+    0 0 300px 0px rgba(255,255,255,0.1);
+    animation: waveLight 10s linear infinite ;
+}
+
+@keyframes waveLight {
+    0%{
+        top: -100vw;
+        left: 0px;
+        rotate: 36deg;
+    }
+    25%{
+        rotate: 0deg;
+    }
+    50%{
+        rotate: 36deg;
+    }
+    100%{
+        rotate: 0deg;
+        left: 100vw;
+    }
+}
