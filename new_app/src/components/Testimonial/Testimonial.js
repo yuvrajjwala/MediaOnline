@@ -16,7 +16,7 @@ function Testimonial() {
    const settings = {
       dots: true,
       infinite: true,
-      speed: 500,
+      speed: 300,
       slidesToShow: 3,
       infinite: true,
       lazyLoad: true,
@@ -29,34 +29,34 @@ function Testimonial() {
     const slidesData = [
       {
         id: 1,
-        title: 'repellendus id ullam',
+        title: 'repellendus',
         label: 'Dolorem offs temporibus.'
       }, {
         id: 2,
-        title: 'excepturi consequatur est',
+        title: 'excepturi ',
         label: 'Officia non pt do et neque.'
       }, {
         id: 3,
-        title: 'eius doloribus blanditiis',
+        title: 'eius ',
         label: 'Ut recusandae vee moles .'
       }, {
         id: 4,
-        title: 'nihil voluptates delectus',
+        title: 'nihil vos',
         label: 'Qui vel consequatur recus.'
       }, {
         id: 5,
-        title: 'nemo dolorem necessitatibus',
+        title: 'nemo dolorem ',
         label: 'Placeat odit velue atem.'
       }, {
         id: 6,
-        title: 'dolorem quibusdam quasi',
+        title: 'dolorem ',
         label: 'Adipisci officdiandae.'
       },
     ];
     const [imageIndex, setImageIndex] = useState(0);
   
     return (
-      <div className="App">
+      <div className="App1">
   
         <div className="slider-wrapper">
   
