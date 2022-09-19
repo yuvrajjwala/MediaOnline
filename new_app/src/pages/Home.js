@@ -23,7 +23,7 @@ AOS.init()
 function Home() {
     return (
         <>
-        <Testimonial/>
+        
             <Header text1="Privacy and Performance" text2=" By Design" subtext1="Smart TV add management made simple" buttonText="GET STARTED" />
             <div data-aos="fade-up"
      data-aos-duration="1000"  id='arr2'>
@@ -156,7 +156,7 @@ function Home() {
                 </div>
 
             </div>
-
+            <Testimonial/>
 
             <div data-aos="fade-up"
      data-aos-duration="1000" id='arr8-0'>How did we get here?</div>

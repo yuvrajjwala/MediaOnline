@@ -23,6 +23,7 @@ function Testimonial() {
       slidesToShow: 3,
       centerMode: true,
       centerPadding: 0,
+      beforeChange: (current, next) => setImageIndex(next),
     };
   
     const slidesData = [
@@ -52,6 +53,7 @@ function Testimonial() {
         label: 'Adipisci officdiandae.'
       },
     ];
+    const [imageIndex, setImageIndex] = useState(0);
   
     return (
       <div className="App">
@@ -60,9 +62,9 @@ function Testimonial() {
   
           <Slider {...settings}>
   
-            {slidesData.map((slide) =>
+            {slidesData.map((slide, idx) =>
   
-              <div className="slick-slide" key={slide.id}>
+              <div className={idx === imageIndex ? "slide activeSlide" : "slide"} key={slide.id}>
                 <h2 className="slick-slide-title">{slide.title}</h2>
                 <img className="slick-slide-image" src={`https://picsum.photos/800/400?img=${slide.id}`} />
                 <label className="slick-slide-label">{slide.label}</label>
