@@ -156,6 +156,10 @@ function Home() {
                 </div>
 
             </div>
+            <div id='arr7'>
+                <div id='arr7-1'>TESTIMONIALS</div>
+                <div id='arr7-2'>The Word of Trust</div>
+            </div>
             <Testimonial/>
 
             <div data-aos="fade-up"

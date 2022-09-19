@@ -365,7 +365,8 @@
     position: absolute;
     transition-duration: 1.5s;
 }
-#arr6-img:hover{
+
+#arr6-img:hover {
     transform: scale(1.05);
 }
 
@@ -434,7 +435,7 @@
     cursor: pointer;
 }
 
-#arr6-2-2-3:hover{
+#arr6-2-2-3:hover {
     transform: scale(1.07);
 }
 
@@ -596,9 +597,11 @@
     color: #FFFFFF;
     cursor: pointer;
 }
-#arr8-2-2-2:hover{
+
+#arr8-2-2-2:hover {
     transform: scale(1.05);
 }
+
 #arr8-2-2-3 {
     font-family: 'Inter';
     font-style: normal;
@@ -626,6 +629,45 @@
     text-align: center;
     letter-spacing: -0.055em;
     text-transform: uppercase;
+
+    background: linear-gradient(90.23deg, #0098BB 18.77%, #340031 83.27%), #000000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+#arr7-1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 64px;
+    /* or 212% */
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    background: linear-gradient(90.23deg, #0098BB 18.77%, #340031 83.27%), #000000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+#arr7-2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 64px;
+    /* or 159% */
+
+    text-align: center;
+    letter-spacing: -0.055em;
+    width: 21%;
+    margin: auto;
 
     background: linear-gradient(90.23deg, #0098BB 18.77%, #340031 83.27%), #000000;
     -webkit-background-clip: text;
