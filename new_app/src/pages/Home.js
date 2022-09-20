@@ -7,6 +7,7 @@ import image2 from '../assets/img/home/Group76.png'
 import image3 from '../assets/img/home/1.png'
 import image4 from '../assets/img/home/2.png'
 import image5 from '../assets/img/home/3.png'
+import SineWaves from 'sine-waves';
 import image6 from '../assets/img/home/4.png'
 import image7 from '../assets/img/home/5.png'
 import image8 from '../assets/img/home/6.png'
@@ -32,13 +33,123 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init()
 function Home() {
+    setTimeout(() => {
+        var waves = new SineWaves({
+            el: document.getElementById('waves'),
+
+            speed: 3,
+
+            ease: 'SineInOut',
+
+            wavesWidth: '250%',
+
+            waves: [
+                {
+                    timeModifier: 4,
+                    lineWidth: 5,
+                    amplitude: -225,
+                    wavelength: 195
+                },
+                {
+                    timeModifier: 2,
+                    lineWidth: 6,
+                    amplitude: -210,
+                    wavelength: 230
+                },
+                {
+                    timeModifier: 1,
+                    lineWidth: 6,
+                    amplitude: -275,
+                    wavelength: 190
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 8,
+                    amplitude: -240,
+                    wavelength: 240
+                },
+                {
+                    timeModifier: 0.5,
+                    lineWidth: 4,
+                    amplitude: -260,
+                    wavelength: 260
+                },
+                {
+                    timeModifier: 1.3,
+                    lineWidth: 6,
+                    amplitude: -340,
+                    wavelength: 190
+                }
+                //comment
+                // {
+                //     timeModifier: 5,
+                //     lineWidth: 1,
+                //     amplitude: -30,
+                //     wavelength: 30
+                // },
+                // {
+                //     timeModifier: 2,
+                //     lineWidth: 1,
+                //     amplitude: -100,
+                //     wavelength: 100
+                // },
+                // {
+                //     timeModifier: 1,
+                //     lineWidth: 1,
+                //     amplitude: -180,
+                //     wavelength: 100
+                // },
+                // {
+                //     timeModifier: 3,
+                //     lineWidth: 1,
+                //     amplitude: 150,
+                //     wavelength: 80
+                // },
+                // {
+                //     timeModifier: 0.5,
+                //     lineWidth: 1,
+                //     amplitude: -200,
+                //     wavelength: 200
+                // },
+                // {
+                //     timeModifier: 5,
+                //     lineWidth: 5,
+                //     amplitude: -220,
+                //     wavelength: 400
+                // }
+            ],
+
+            // Called on window resize
+            resizeEvent: function () {
+                var gradient = this.ctx.createLinearGradient(0, 0, this.width, 0);
+                gradient.addColorStop(0, "rgba(25, 255, 255, 0)");
+                gradient.addColorStop(0.5, "rgba(255, 25, 255, 0.75)");
+                gradient.addColorStop(1, "rgba(255, 255, 25, 0");
+
+                var index = -1;
+                var length = this.waves.length;
+                while (++index < length) {
+                    this.waves[index].strokeStyle = gradient;
+                }
+
+                // Clean Up
+                index = void 0;
+                length = void 0;
+                gradient = void 0;
+            }
+        });
+
+    }, 500);
     return (
         <>
-        
+
             <Header text1="Privacy and Performance" text2=" By Design" subtext1="Smart TV add management made simple" buttonText="GET STARTED" />
             <div data-aos="fade-up"
-     data-aos-duration="500"  id='arr2'>
+                data-aos-duration="500" id='arr2'>
                 <div id='arr2-1'>Built for the future of smart TV Advertising</div>
+                <div id="container">
+                    <canvas id="waves"></canvas>
+                </div>
                 <img src={image1} alt='' id="arr2-3" />
                 <div id='arr2-2'>
                     <div id='arr2-2-1'>ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES</div>
@@ -49,9 +160,14 @@ function Home() {
                 </div>
             </div>
 
+
+
+
+
+
             <div data-aos="fade-up"
-     data-aos-duration="500" id='arr3'>
-                <div  id='arr3-1'>THE ONES WHO BELIEVE IN US</div>
+                data-aos-duration="500" id='arr3'>
+                <div id='arr3-1'>THE ONES WHO BELIEVE IN US</div>
                 <div id='arr3-2'>
                     <img id='arr3-2-1' src={image2} alt="" />
                     <img id='arr3-2-2' src={image2} alt="" />
@@ -59,7 +175,7 @@ function Home() {
             </div>
 
             <div data-aos="fade-up"
-     data-aos-duration="1000" id="arr4">
+                data-aos-duration="1000" id="arr4">
                 <div id='arr4-1'>
                     <div id='arr4-1-1'>CHANNELS</div>
                     <div id='arr4-1-2'>Safeguard your audience and your
@@ -86,7 +202,7 @@ function Home() {
 
 
             <div data-aos="fade-up"
-     data-aos-duration="1000" id='arr5'>
+                data-aos-duration="1000" id='arr5'>
                 <div id='arr5-1'>
                     <div id='arr5-1-1'>
                         <div className='div-flex' id='arr5-1-1-1'>
@@ -140,7 +256,7 @@ function Home() {
             </div>
 
             <div data-aos="fade-up"
-     data-aos-duration="1000" id='arr6'>
+                data-aos-duration="1000" id='arr6'>
                 <div id='arr6-1'>
                     <img src={overflow} alt='' id='arr6-img' />
                     <div id='arr6-1-1-1'>Brands</div>
@@ -166,11 +282,11 @@ function Home() {
                     </div>
                     <div id='arr6-2'>
                         <div id='arr6-2-1' data-aos="fade-up"
-     data-aos-duration="2000">
+                            data-aos-duration="2000">
                             <img src={privateMarket} alt='' id='arr6-2-img' />
                         </div>
                         <div id='arr6-2-2' data-aos="fade-up"
-     data-aos-duration="3000">
+                            data-aos-duration="3000">
                             <div id='arr6-2-2-1'>Channels</div>
                             <div id='arr6-2-2-2'>Brands can buy PMP inventory easily and gain immediate access to 1400 pre-negotiated deals for connected TV.
                             </div>
@@ -180,15 +296,15 @@ function Home() {
                 </div>
 
             </div>
-            <div id='arr7'data-aos="fade-up"
-     data-aos-duration="1000">
+            <div id='arr7' data-aos="fade-up"
+                data-aos-duration="1000">
                 <div id='arr7-1'>TESTIMONIALS</div>
                 <div id='arr7-2'>The Word of Trust</div>
             </div>
-            <Testimonial/>
+            <Testimonial />
 
             <div data-aos="fade-up"
-     data-aos-duration="1000" id='arr8-0'>How did we get here?</div>
+                data-aos-duration="1000" id='arr8-0'>How did we get here?</div>
             <div id='arr8'>
                 <div id='arr8-1'>
                     <img src={timeline} alt='' />
@@ -208,7 +324,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            
+
         </>
     )
 }

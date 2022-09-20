@@ -1,6 +1,8 @@
 #arr2 {
     background-image: url('../assets/img/home/FutureofAdvertising.png');
     /* height: 100vh; */
+    background-position: center;
+    position: relative;
     margin: 10rem auto;
     background-size: cover;
 }
@@ -680,4 +682,10 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+}
+
+#container{
+    position: absolute;
+    top: 20%;
+    z-index: -1;
 }
