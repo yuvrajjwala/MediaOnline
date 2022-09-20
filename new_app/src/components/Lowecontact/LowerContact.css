@@ -39,13 +39,14 @@
 }
 
 .get-a-demo-border{
-   padding: 5px;
+   padding: 3px;
    background: linear-gradient(to right, #00888F, #580053);
    border-radius: 10px;
 }
 .lower-conter-right{
    width: 40vw;
    max-width: 450px;
+   /* background-image: url("../../assets/img/home/bg-lower-contact.png"); */
 }
 .get-a-demo-form{
    background-color: white;
@@ -57,4 +58,47 @@
    text-align: center;
    font-weight: bold;
    font-size: 1.5rem;
+   color: black;
+   margin-bottom: 30px;
+}
+.get-a-demo-form p{
+   font-weight: bold;
+   color: rgb(156, 156, 156);
+}
+.get-a-demo-form input,textarea{
+   width: 100%;
+   height: 40px;
+   background-color: rgb(246, 246, 246);
+   border: none;
+   border-radius: 15px;
+}
+#input-2{
+   margin-bottom: 30px;
+   height: 80px;
+}
+.get-a-demo-form button{
+   background: linear-gradient(to right, #00888F, #580053);
+   border: none;
+   color: white;
+   padding: 10px 22px;
+   font-size: 22px;
+   border-radius: 5px;
+   display: block;
+   margin: auto;
+   transition-duration: 0.5s;
+}
+.get-a-demo-form button:hover{
+   transform: scale(1.05);
+   cursor: pointer;
+}
+.lower-text-contact{
+   font-size: 11px;
+   font-weight: 400 !important;
+   color: rgb(73, 73, 73);
+   margin-top: 30px;
+   text-align: center;
+}
+.lower-text-contact a{
+   text-decoration: none;
+   color: #580053;
 }
