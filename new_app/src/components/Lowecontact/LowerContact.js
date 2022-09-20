@@ -12,7 +12,17 @@ const LowerContact = () => {
             <div><img src={lowerfooteLogos}></img></div>
          </div>
          <div className='lower-conter-right'>
-           
+          <div className='get-a-demo-border'>
+           <div className='get-a-demo-form'>
+              <p id='get-1'>Get a Demo</p>
+              <p>Email</p>
+              <input></input>
+              <p>Message</p>
+              <textarea></textarea><br></br>
+              <button>SUBMIT</button>
+              <p className='lower-text-contact'>To learn how Clearbit handles your information, please see our privacy policy.</p>
+           </div>
+         </div>
          </div>
       </div>
     </div>

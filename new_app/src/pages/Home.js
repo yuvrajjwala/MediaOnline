@@ -11,7 +11,7 @@ import cash from '../assets/img/home/cash.png'
 import hamburger from '../assets/img/home/hamburger.png'
 import overflow from '../assets/img/home/071.png'
 import privateMarket from '../assets/img/home/PrivateMarketplace.png'
-import timeline from '../assets/img/home/Timeline.png'
+import timeline from '../assets/img/home/Timeline.1549787a14cb87462894.svg'
 import circle_out from '../assets/img/home/Ellipse3.png'
 import circle_mid from '../assets/img/home/Ellipse2.png'
 import circle_in from '../assets/img/home/Ellipse1.png'
@@ -26,7 +26,7 @@ function Home() {
         
             <Header text1="Privacy and Performance" text2=" By Design" subtext1="Smart TV add management made simple" buttonText="GET STARTED" />
             <div data-aos="fade-up"
-     data-aos-duration="1000"  id='arr2'>
+     data-aos-duration="500"  id='arr2'>
                 <div id='arr2-1'>Built for the future of smart TV Advertising</div>
                 <img src={image1} alt='' id="arr2-3" />
                 <div id='arr2-2'>
@@ -39,7 +39,7 @@ function Home() {
             </div>
 
             <div data-aos="fade-up"
-     data-aos-duration="1000" id='arr3'>
+     data-aos-duration="500" id='arr3'>
                 <div  id='arr3-1'>THE ONES WHO BELIEVE IN US</div>
                 <div id='arr3-2'>
                     <img id='arr3-2-1' src={image2} alt="" />
@@ -143,10 +143,12 @@ function Home() {
                             dashboard.</div>
                     </div>
                     <div id='arr6-2'>
-                        <div id='arr6-2-1'>
+                        <div id='arr6-2-1' data-aos="fade-up"
+     data-aos-duration="2000">
                             <img src={privateMarket} alt='' id='arr6-2-img' />
                         </div>
-                        <div id='arr6-2-2'>
+                        <div id='arr6-2-2' data-aos="fade-up"
+     data-aos-duration="3000">
                             <div id='arr6-2-2-1'>Channels</div>
                             <div id='arr6-2-2-2'>Brands can buy PMP inventory easily and gain immediate access to 1400 pre-negotiated deals for connected TV.
                             </div>
@@ -156,7 +158,8 @@ function Home() {
                 </div>
 
             </div>
-            <div id='arr7'>
+            <div id='arr7'data-aos="fade-up"
+     data-aos-duration="1000">
                 <div id='arr7-1'>TESTIMONIALS</div>
                 <div id='arr7-2'>The Word of Trust</div>
             </div>
