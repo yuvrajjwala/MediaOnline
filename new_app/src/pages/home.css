@@ -141,6 +141,12 @@
     width: 39%;
 }
 
+#arr4-2{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
 #arr4-1-1 {
     font-family: 'Inter';
     font-style: normal;

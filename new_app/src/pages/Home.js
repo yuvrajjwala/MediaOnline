@@ -4,7 +4,18 @@ import '../components/header.css'
 import '../pages/home.css'
 import image1 from '../assets/img/home/TV.png'
 import image2 from '../assets/img/home/Group76.png'
-import image3 from '../assets/img/home/Group62.png'
+import image3 from '../assets/img/home/1.png'
+import image4 from '../assets/img/home/2.png'
+import image5 from '../assets/img/home/3.png'
+import image6 from '../assets/img/home/4.png'
+import image7 from '../assets/img/home/5.png'
+import image8 from '../assets/img/home/6.png'
+import image9 from '../assets/img/home/7.png'
+import image10 from '../assets/img/home/8.png'
+import image11 from '../assets/img/home/9.png'
+import image12 from '../assets/img/home/10.png'
+import image13 from '../assets/img/home/11.png'
+import image14 from '../assets/img/home/12.png'
 import tv from '../assets/img/home/tv_1.png'
 import lock from '../assets/img/home/lock.png'
 import cash from '../assets/img/home/cash.png'
@@ -57,6 +68,17 @@ function Home() {
                 </div>
                 <div id='arr4-2'>
                     <img id='arr4-2-1' src={image3} alt='' />
+                    <img id='arr4-2-2' src={image4} alt='' />
+                    <img id='arr4-2-3' src={image5} alt='' />
+                    <img id='arr4-2-4' src={image6} alt='' />
+                    <img id='arr4-2-5' src={image7} alt='' />
+                    <img id='arr4-2-6' src={image8} alt='' />
+                    <img id='arr4-2-7' src={image9} alt='' />
+                    <img id='arr4-2-8' src={image10} alt='' />
+                    <img id='arr4-2-9' src={image11} alt='' />
+                    <img id='arr4-2-10' src={image12} alt='' />
+                    <img id='arr4-2-11' src={image13} alt='' />
+                    <img id='arr4-2-12' src={image14} alt='' />
                 </div>
             </div>
 
