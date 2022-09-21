@@ -29,6 +29,7 @@ import circle_mid from '../assets/img/home/Ellipse2.png'
 import circle_in from '../assets/img/home/Ellipse1.png'
 import logo1 from '../assets/img/home/MaskGroup.png'
 import Testimonial from '../components/Testimonial/Testimonial'
+import sidebg from '../../src/assets/img/home/side-bg.svg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init()
@@ -294,38 +295,38 @@ function Home() {
                 </div>
                 <div id='arr4-2'>
                     <img data-aos="fade-up"
-                data-aos-duration="1500" id='arr4-2-1' src={image3} alt='' />
+                data-aos-duration="1000" id='arr4-2-1' src={image3} alt='' />
                     <img data-aos="fade-up"
-                data-aos-duration="1800" id='arr4-2-2' src={image4} alt='' />
+                data-aos-duration="1200" id='arr4-2-2' src={image4} alt='' />
                     <img 
                     data-aos="fade-up"
-                    data-aos-duration="2000" id='arr4-2-3' src={image5} alt='' />
+                    data-aos-duration="1500" id='arr4-2-3' src={image5} alt='' />
                     <img data-aos="fade-up"
-                data-aos-duration="2300" id='arr4-2-4' src={image6} alt='' />
+                data-aos-duration="1600" id='arr4-2-4' src={image6} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="2500" id='arr4-2-5' src={image7} alt='' />
+                    data-aos-duration="1800" id='arr4-2-5' src={image7} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="2800" id='arr4-2-6' src={image8} alt='' />
+                    data-aos-duration="2000" id='arr4-2-6' src={image8} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="3000" id='arr4-2-7' src={image9} alt='' />
+                    data-aos-duration="2100" id='arr4-2-7' src={image9} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="3200" id='arr4-2-8' src={image10} alt='' />
+                    data-aos-duration="2500" id='arr4-2-8' src={image10} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="3400" id='arr4-2-9' src={image11} alt='' />
+                    data-aos-duration="2600" id='arr4-2-9' src={image11} alt='' />
                     <img 
                     data-aos="fade-up"
-                    data-aos-duration="3600"id='arr4-2-10' src={image12} alt='' />
+                    data-aos-duration="2700" id='arr4-2-10' src={image12} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="3800" id='arr4-2-11' src={image13} alt='' />
+                    data-aos-duration="2900" id='arr4-2-11' src={image13} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="4200" id='arr4-2-12' src={image14} alt='' />
+                    data-aos-duration="3000" id='arr4-2-12' src={image14} alt='' />
                 </div>
             </div>
 
@@ -335,9 +336,13 @@ function Home() {
             <div data-aos="fade-up"
                 data-aos-duration="1000" id='arr5'>
                 <div id='arr5-1'>
+                <img id='sidebg' src={sidebg} alt=""/>
                     <div id='arr5-1-1'>
+                        
                         <div className='div-flex' id='arr5-1-1-1'>
+                       
                             <img className='img-block' src={tv} alt='' />
+                            
                             <span className='head-small'> Run smart tv campaigns in a privacy-safe
                                 environment.</span>
                         </div>

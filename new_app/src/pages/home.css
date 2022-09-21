@@ -239,6 +239,15 @@
 
 #arr5-1 {
     width: 34%;
+    /* background: url(../../src/assets/img/home/side-bg.svg); */
+
+}
+#sidebg{
+    position: absolute;
+    left: -23%;
+    bottom: -67%;
+    /* height: 455px; */
+    height: 119%;
 }
 
 #arr5-2-1 {
