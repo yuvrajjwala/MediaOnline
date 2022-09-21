@@ -294,38 +294,38 @@ function Home() {
                 </div>
                 <div id='arr4-2'>
                     <img data-aos="fade-up"
-                data-aos-duration="500" id='arr4-2-1' src={image3} alt='' />
+                data-aos-duration="1500" id='arr4-2-1' src={image3} alt='' />
                     <img data-aos="fade-up"
-                data-aos-duration="800" id='arr4-2-2' src={image4} alt='' />
+                data-aos-duration="1800" id='arr4-2-2' src={image4} alt='' />
                     <img 
                     data-aos="fade-up"
-                    data-aos-duration="1000" id='arr4-2-3' src={image5} alt='' />
+                    data-aos-duration="2000" id='arr4-2-3' src={image5} alt='' />
                     <img data-aos="fade-up"
-                data-aos-duration="1300" id='arr4-2-4' src={image6} alt='' />
+                data-aos-duration="2300" id='arr4-2-4' src={image6} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="1500" id='arr4-2-5' src={image7} alt='' />
+                    data-aos-duration="2500" id='arr4-2-5' src={image7} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="1800" id='arr4-2-6' src={image8} alt='' />
+                    data-aos-duration="2800" id='arr4-2-6' src={image8} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="2000" id='arr4-2-7' src={image9} alt='' />
+                    data-aos-duration="3000" id='arr4-2-7' src={image9} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="2200" id='arr4-2-8' src={image10} alt='' />
+                    data-aos-duration="3200" id='arr4-2-8' src={image10} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="2400" id='arr4-2-9' src={image11} alt='' />
+                    data-aos-duration="3400" id='arr4-2-9' src={image11} alt='' />
                     <img 
                     data-aos="fade-up"
-                    data-aos-duration="2600"id='arr4-2-10' src={image12} alt='' />
+                    data-aos-duration="3600"id='arr4-2-10' src={image12} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="2800" id='arr4-2-11' src={image13} alt='' />
+                    data-aos-duration="3800" id='arr4-2-11' src={image13} alt='' />
                     <img
                     data-aos="fade-up"
-                    data-aos-duration="3000" id='arr4-2-12' src={image14} alt='' />
+                    data-aos-duration="4200" id='arr4-2-12' src={image14} alt='' />
                 </div>
             </div>
 
