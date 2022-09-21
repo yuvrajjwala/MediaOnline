@@ -1,11 +1,13 @@
 #arr2 {
-    background-image: url('../assets/img/home/FutureofAdvertising.png');
+    /* background-image: url('../assets/img/home/FutureofAdvertising.png'); */
     /* height: 100vh; */
     background-position: center;
     position: relative;
-    margin: 10rem auto;
+    /* margin: 10rem auto; */
     background-size: cover;
+    padding-top: 10rem;
 }
+
 
 #arr2-1 {
 
@@ -686,6 +688,6 @@
 
 #container{
     position: absolute;
-    top: 20%;
+    top: 36%;
     z-index: -1;
 }

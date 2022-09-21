@@ -18,8 +18,8 @@ function Header(props) {
                 <div id="wave"></div>
 
                 <div id="back">
-                    {/* <img src={back} alt='' id="back1"/>
-                <img src={back} alt='' id="back2"/> */}
+                    <img src={back} alt='' id="back1"/>
+                <img src={back} alt='' id="back2"/>
 
                 </div>
                 <nav>

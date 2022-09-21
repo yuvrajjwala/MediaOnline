@@ -37,94 +37,204 @@ function Home() {
         var waves = new SineWaves({
             el: document.getElementById('waves'),
 
-            speed: 3,
+            speed: 4,
 
             ease: 'SineInOut',
 
-            wavesWidth: '250%',
+            wavesWidth: '150%',
 
             waves: [
-                {
-                    timeModifier: 4,
-                    lineWidth: 5,
-                    amplitude: -225,
-                    wavelength: 195
-                },
-                {
-                    timeModifier: 2,
-                    lineWidth: 6,
-                    amplitude: -210,
-                    wavelength: 230
-                },
-                {
-                    timeModifier: 1,
-                    lineWidth: 6,
-                    amplitude: -275,
-                    wavelength: 190
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 8,
-                    amplitude: -240,
-                    wavelength: 240
-                },
-                {
-                    timeModifier: 0.5,
-                    lineWidth: 4,
-                    amplitude: -260,
-                    wavelength: 260
-                },
-                {
-                    timeModifier: 1.3,
-                    lineWidth: 6,
-                    amplitude: -340,
-                    wavelength: 190
-                }
-                //comment
+                // RANDOM WAVES
                 // {
-                //     timeModifier: 5,
-                //     lineWidth: 1,
-                //     amplitude: -30,
-                //     wavelength: 30
+                //     timeModifier: 3,
+                //     lineWidth: 5,
+                //     amplitude: -225,
+                //     wavelength: 195
+                // },
+                // {
+                //     timeModifier: 4,
+                //     lineWidth: 5,
+                //     amplitude: -225,
+                //     wavelength: 195
                 // },
                 // {
                 //     timeModifier: 2,
-                //     lineWidth: 1,
-                //     amplitude: -100,
-                //     wavelength: 100
-                // },
-                // {
-                //     timeModifier: 1,
-                //     lineWidth: 1,
-                //     amplitude: -180,
-                //     wavelength: 100
+                //     lineWidth: 5,
+                //     amplitude: -225,
+                //     wavelength: 195
                 // },
                 // {
                 //     timeModifier: 3,
-                //     lineWidth: 1,
-                //     amplitude: 150,
-                //     wavelength: 80
+                //     lineWidth: 5,
+                //     amplitude: -220,
+                //     wavelength: 155
                 // },
                 // {
-                //     timeModifier: 0.5,
-                //     lineWidth: 1,
-                //     amplitude: -200,
-                //     wavelength: 200
+                //     timeModifier: 4,
+                //     lineWidth: 5,
+                //     amplitude: -205,
+                //     wavelength: 205
+                // },
+                // {
+                //     timeModifier: 3,
+                //     lineWidth: 5,
+                //     amplitude: -225,
+                //     wavelength: 195
+                // },
+                // {
+                //     timeModifier: 2,
+                //     lineWidth: 4,
+                //     amplitude: -205,
+                //     wavelength: 175
+                // },
+                // {
+                //     timeModifier: 4,
+                //     lineWidth: 5,
+                //     amplitude: -205,
+                //     wavelength: 175
+                // },
+                // {
+                //     timeModifier: 3,
+                //     lineWidth: 5,
+                //     amplitude: -265,
+                //     wavelength: 165
+                // },
+                // {
+                //     timeModifier: 2,
+                //     lineWidth: 5,
+                //     amplitude: -215,
+                //     wavelength: 175
                 // },
                 // {
                 //     timeModifier: 5,
                 //     lineWidth: 5,
-                //     amplitude: -220,
-                //     wavelength: 400
+                //     amplitude: -125,
+                //     wavelength: 195
+                // },{
+                //     timeModifier: 3,
+                //     lineWidth: 5,
+                //     amplitude: -265,
+                //     wavelength: 185
+                // },
+                // {
+                //     timeModifier: 4,
+                //     lineWidth: 5,
+                //     amplitude: -175,
+                //     wavelength: 225
                 // }
+                // SINE WAVE-----------------
+                {
+                    timeModifier: 3,
+                    lineWidth: 5,
+                    amplitude: -265,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 5,
+                    amplitude: -245,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 4,
+                    amplitude: -225,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 4,
+                    amplitude: -205,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 4,
+                    amplitude: -185,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 3,
+                    amplitude: -165,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 3,
+                    amplitude: -145,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 3,
+                    amplitude: -125,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 3,
+                    amplitude: -105,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 2,
+                    amplitude: -85,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 2,
+                    amplitude: -65,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 2,
+                    amplitude: -45,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 2,
+                    amplitude: -25,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 1,
+                    amplitude: 5,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 1,
+                    amplitude: 25,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 1,
+                    amplitude: 45,
+                    wavelength: 135
+                },
+                {
+                    timeModifier: 3,
+                    lineWidth: 1,
+                    amplitude: 65,
+                    wavelength: 135
+                }
+               
+               
             ],
 
             // Called on window resize
             resizeEvent: function () {
                 var gradient = this.ctx.createLinearGradient(0, 0, this.width, 0);
-                gradient.addColorStop(0, "rgba(25, 255, 255, 0)");
-                gradient.addColorStop(0.5, "rgba(255, 25, 255, 0.75)");
-                gradient.addColorStop(1, "rgba(255, 255, 25, 0");
+                gradient.addColorStop(0, "#01868fd1");
+                gradient.addColorStop(0.5, "#3D4480");
+                gradient.addColorStop(1, "#770370c7");
 
                 var index = -1;
                 var length = this.waves.length;
@@ -148,7 +258,7 @@ function Home() {
                 data-aos-duration="500" id='arr2'>
                 <div id='arr2-1'>Built for the future of smart TV Advertising</div>
                 <div id="container">
-                    <canvas id="waves"></canvas>
+                    <canvas id="waves" style={{height:"400px !important"}}></canvas>
                 </div>
                 <img src={image1} alt='' id="arr2-3" />
                 <div id='arr2-2'>
@@ -175,7 +285,7 @@ function Home() {
             </div>
 
             <div data-aos="fade-up"
-                data-aos-duration="1000" id="arr4">
+                data-aos-duration="2000" id="arr4">
                 <div id='arr4-1'>
                     <div id='arr4-1-1'>CHANNELS</div>
                     <div id='arr4-1-2'>Safeguard your audience and your
@@ -183,18 +293,39 @@ function Home() {
                     <div id='arr4-1-3'>Activate your channel audience, without exposing any data. Connect with advertisers securely. Build privacy-safe audience segments. Transfer Data without the worry of data leak.</div>
                 </div>
                 <div id='arr4-2'>
-                    <img id='arr4-2-1' src={image3} alt='' />
-                    <img id='arr4-2-2' src={image4} alt='' />
-                    <img id='arr4-2-3' src={image5} alt='' />
-                    <img id='arr4-2-4' src={image6} alt='' />
-                    <img id='arr4-2-5' src={image7} alt='' />
-                    <img id='arr4-2-6' src={image8} alt='' />
-                    <img id='arr4-2-7' src={image9} alt='' />
-                    <img id='arr4-2-8' src={image10} alt='' />
-                    <img id='arr4-2-9' src={image11} alt='' />
-                    <img id='arr4-2-10' src={image12} alt='' />
-                    <img id='arr4-2-11' src={image13} alt='' />
-                    <img id='arr4-2-12' src={image14} alt='' />
+                    <img data-aos="fade-up"
+                data-aos-duration="500" id='arr4-2-1' src={image3} alt='' />
+                    <img data-aos="fade-up"
+                data-aos-duration="800" id='arr4-2-2' src={image4} alt='' />
+                    <img 
+                    data-aos="fade-up"
+                    data-aos-duration="1000" id='arr4-2-3' src={image5} alt='' />
+                    <img data-aos="fade-up"
+                data-aos-duration="1300" id='arr4-2-4' src={image6} alt='' />
+                    <img
+                    data-aos="fade-up"
+                    data-aos-duration="1500" id='arr4-2-5' src={image7} alt='' />
+                    <img
+                    data-aos="fade-up"
+                    data-aos-duration="1800" id='arr4-2-6' src={image8} alt='' />
+                    <img
+                    data-aos="fade-up"
+                    data-aos-duration="2000" id='arr4-2-7' src={image9} alt='' />
+                    <img
+                    data-aos="fade-up"
+                    data-aos-duration="2200" id='arr4-2-8' src={image10} alt='' />
+                    <img
+                    data-aos="fade-up"
+                    data-aos-duration="2400" id='arr4-2-9' src={image11} alt='' />
+                    <img 
+                    data-aos="fade-up"
+                    data-aos-duration="2600"id='arr4-2-10' src={image12} alt='' />
+                    <img
+                    data-aos="fade-up"
+                    data-aos-duration="2800" id='arr4-2-11' src={image13} alt='' />
+                    <img
+                    data-aos="fade-up"
+                    data-aos-duration="3000" id='arr4-2-12' src={image14} alt='' />
                 </div>
             </div>
 

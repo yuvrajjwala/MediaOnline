@@ -181,7 +181,7 @@ nav {
 #wave{
     position: absolute;
     height: 200vw;
-    width: 50px;
+    /* width: 50px; */
     background-color:rgba(255,255,255,0.4);
     top: 0px;
     left: 0px;
@@ -223,14 +223,15 @@ nav {
 
 
 #container {
-    width: 100vw;
+    width: 98vw;
     height: 50vh;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #FFF;
-    /* background-image: radial-gradient(to bottom, #0f0f0f 0%, #0a0a0a 100%); */
+    /* color: #FFF; */
+    background-image: radial-gradient(to bottom, #0f0f0f 0%, #0a0a0a 100%);
     border-radius: 8px;
     /* box-shadow: 0 16px 24px -8px rgba(0, 0, 0, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.5); */
   }
