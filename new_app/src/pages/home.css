@@ -151,6 +151,12 @@
     flex-wrap: wrap;
 }
 
+#arr4-2 img{
+    transition-duration: 0.5s;
+}
+#arr4-2 img:hover{
+    transform: scale(1.1);
+}
 #arr4-1-1 {
     font-family: 'Inter';
     font-style: normal;
@@ -502,9 +508,11 @@
 }
 
 #arr8 {
-    padding: 5rem 10rem;
+    padding: 5rem 11vw;
     display: flex;
+    
 }
+
 
 #arr8-2-1 {
     position: relative;
@@ -514,6 +522,11 @@
 .img-absolute {
     position: absolute;
 }
+/* @media screen and (max-width: 1600px) {
+    #arr8-2-1{
+        padding-left: 3vw;
+    }
+  } */
 
 #arr8-img1 {
     top: 65px;

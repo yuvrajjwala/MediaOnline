@@ -1,7 +1,7 @@
 import React from "react";
 import './header.css';
 import logo from '../assets/img/home/Rectangle62.png';
-import back from '../assets/img/home/Lines.png'
+import back from '../assets/img/home/lines.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

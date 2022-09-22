@@ -13,8 +13,10 @@
     font-weight: 500;
     margin-top: 50px;
     margin-bottom: 100px;
+
 }
 .lower-conten-box{
+   overflow: hidden;
    display: flex;
    justify-content: space-evenly;
    background-image: url("../../assets/img/home/bg-lower-contact.png");
