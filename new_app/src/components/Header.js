@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './header.css';
 import logo from '../assets/img/home/Rectangle62.png';
-import back from '../assets/img/home/lines.png'
+import back from '../assets/img/home/Lines.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -15,7 +16,7 @@ function Header(props) {
 
             <div className="header">
 
-                <div id="wave"></div>
+                {/* <div id="wave"></div> */}
 
                 <div id="back">
                     <img src={back} alt='' id="back1"/>
@@ -25,11 +26,11 @@ function Header(props) {
                 <nav>
                     <div className="logo"><img src={logo} alt="" /></div>
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Channels</a></li>
-                        <li><a href="">Brands</a></li>
-                        <li><a href="">Clients</a></li>
-                        <li><a href="">Resources</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/">Channels</Link></li>
+                        <li><Link to="/">Brands</Link></li>
+                        <li><Link to="/">Clients</Link></li>
+                        <li><Link to="/">Resources</Link></li>
                         {/* <li><a href="">Get in Touch</a></li> */}
                     </ul>
                     <div>

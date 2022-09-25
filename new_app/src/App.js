@@ -1,14 +1,17 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home.js';
-import Footer from './components/Footer/Footer';
-import LowerContact from './components/Lowecontact/LowerContact';
+import Channels from './pages/Channels'
 
 function App() {
   return (
     <>
-      <Home/>
-      <LowerContact/>
-      <Footer/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/channels" element={<Channels />}></Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

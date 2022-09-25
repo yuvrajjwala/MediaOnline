@@ -30,8 +30,11 @@ import circle_in from '../assets/img/home/Ellipse1.png'
 import logo1 from '../assets/img/home/MaskGroup.png'
 import Testimonial from '../components/Testimonial/Testimonial'
 import sidebg from '../../src/assets/img/home/side-bg.svg'
+import waving from '../../src/assets/img/home/Yuv2.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from '../components/Footer/Footer';
+import LowerContact from '../components/Lowecontact/LowerContact';
 AOS.init()
 function Home() {
     setTimeout(() => {
@@ -226,8 +229,8 @@ function Home() {
                     amplitude: 65,
                     wavelength: 135
                 }
-               
-               
+
+
             ],
 
             // Called on window resize
@@ -258,17 +261,20 @@ function Home() {
             <div data-aos="fade-up"
                 data-aos-duration="1000" data-aos-delay="300" id='arr2'>
                 <div id='arr2-1'>Built for the future of smart TV Advertising</div>
-                <div data-aos="zoom-in"
-                data-aos-duration="2000" data-aos-delay="1000" id="container">
-                    <canvas id="waves" style={{height:"400px !important"}}></canvas>
+                <div id="container1">
+                    {/* <canvas id="waves" style={{height:"400px !important"}}></canvas> */}
+                    <div id="back0">
+                        <img src={waving} alt='' id="back11" />
+                        <img src={waving} alt='' id="back12" />
+                    </div>
                 </div>
                 <img data-aos="zoom-in"
-                data-aos-duration="1500" data-aos-delay="400" src={image1} alt='' id="arr2-3" />
+                    data-aos-duration="1500" data-aos-delay="400" src={image1} alt='' id="arr2-3" />
                 <div id='arr2-2'>
                     <div data-aos="fade-up"
-                data-aos-duration="3000" data-aos-delay="700" id='arr2-2-1'>ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES</div>
+                        data-aos-duration="3000" data-aos-delay="700" id='arr2-2-1'>ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES</div>
                     <div data-aos="fade-up"
-                data-aos-duration="3000" data-aos-delay="900" id='arr2-2-2'>Data fragmentation and degradation of third party cookies
+                        data-aos-duration="3000" data-aos-delay="900" id='arr2-2-2'>Data fragmentation and degradation of third party cookies
                         has allowed us to harness opportunities and reimagine how
                         audience targeting, Attribution can be brought forward in a
                         privacy-focussed manner.</div>
@@ -283,57 +289,57 @@ function Home() {
             <div data-aos="fade-up"
                 data-aos-duration="500" id='arr3'>
                 <div data-aos="fade-up"
-                data-aos-duration="1000" data-aos-delay="300" id='arr3-1'>THE ONES WHO BELIEVE IN US</div>
+                    data-aos-duration="1000" data-aos-delay="300" id='arr3-1'>THE ONES WHO BELIEVE IN US</div>
                 <div id='arr3-2'>
                     <img id='arr3-2-1' src={image2} alt="" />
                     <img id='arr3-2-2' src={image2} alt="" />
                 </div>
             </div>
 
-            <div  id="arr4">
+            <div id="arr4">
                 <div id='arr4-1'>
                     <div data-aos="fade-up"
-                data-aos-duration="2000" data-aos-delay="300" id='arr4-1-1'>CHANNELS</div>
+                        data-aos-duration="2000" data-aos-delay="300" id='arr4-1-1'>CHANNELS</div>
                     <div data-aos="fade-up"
-                data-aos-duration="2000" data-aos-delay="500" id='arr4-1-2'>Safeguard your audience and your
+                        data-aos-duration="2000" data-aos-delay="500" id='arr4-1-2'>Safeguard your audience and your
                         revenue.</div>
                     <div data-aos="fade-up"
-                data-aos-duration="3000" data-aos-delay="600" id='arr4-1-3'>Activate your channel audience, without exposing any data. Connect with advertisers securely. Build privacy-safe audience segments. Transfer Data without the worry of data leak.</div>
+                        data-aos-duration="3000" data-aos-delay="600" id='arr4-1-3'>Activate your channel audience, without exposing any data. Connect with advertisers securely. Build privacy-safe audience segments. Transfer Data without the worry of data leak.</div>
                 </div>
                 <div id='arr4-2'>
                     <img data-aos="fade-up"
-                data-aos-duration="1000" data-aos-delay="300" id='arr4-2-1' src={image3} alt='' />
+                        data-aos-duration="1000" data-aos-delay="300" id='arr4-2-1' src={image3} alt='' />
                     <img data-aos="fade-up"
-                data-aos-duration="1200" data-aos-delay="350" id='arr4-2-2' src={image4} alt='' />
-                    <img 
-                    data-aos="fade-up"
-                    data-aos-duration="1500" data-aos-delay="350" id='arr4-2-3' src={image5} alt='' />
+                        data-aos-duration="1200" data-aos-delay="350" id='arr4-2-2' src={image4} alt='' />
+                    <img
+                        data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-delay="350" id='arr4-2-3' src={image5} alt='' />
                     <img data-aos="fade-up"
-                data-aos-duration="1600" data-aos-delay="400" id='arr4-2-4' src={image6} alt='' />
+                        data-aos-duration="1600" data-aos-delay="400" id='arr4-2-4' src={image6} alt='' />
                     <img
-                    data-aos="fade-up"
-                    data-aos-duration="1800" data-aos-delay="400" id='arr4-2-5' src={image7} alt='' />
+                        data-aos="fade-up"
+                        data-aos-duration="1800" data-aos-delay="400" id='arr4-2-5' src={image7} alt='' />
                     <img
-                    data-aos="fade-up"
-                    data-aos-duration="2000" data-aos-delay="400" id='arr4-2-6' src={image8} alt='' />
+                        data-aos="fade-up"
+                        data-aos-duration="2000" data-aos-delay="400" id='arr4-2-6' src={image8} alt='' />
                     <img
-                    data-aos="fade-up"
-                    data-aos-duration="2100" data-aos-delay="500" id='arr4-2-7' src={image9} alt='' />
+                        data-aos="fade-up"
+                        data-aos-duration="2100" data-aos-delay="500" id='arr4-2-7' src={image9} alt='' />
                     <img
-                    data-aos="fade-up"
-                    data-aos-duration="2500" data-aos-delay="500" id='arr4-2-8' src={image10} alt='' />
+                        data-aos="fade-up"
+                        data-aos-duration="2500" data-aos-delay="500" id='arr4-2-8' src={image10} alt='' />
                     <img
-                    data-aos="fade-up"
-                    data-aos-duration="2600" data-aos-delay="500" id='arr4-2-9' src={image11} alt='' />
-                    <img 
-                    data-aos="fade-up"
-                    data-aos-duration="2700" data-aos-delay="600" id='arr4-2-10' src={image12} alt='' />
+                        data-aos="fade-up"
+                        data-aos-duration="2600" data-aos-delay="500" id='arr4-2-9' src={image11} alt='' />
                     <img
-                    data-aos="fade-up"
-                    data-aos-duration="2900" data-aos-delay="600" id='arr4-2-11' src={image13} alt='' />
+                        data-aos="fade-up"
+                        data-aos-duration="2700" data-aos-delay="600" id='arr4-2-10' src={image12} alt='' />
                     <img
-                    data-aos="fade-up"
-                    data-aos-duration="3000" data-aos-delay="600" id='arr4-2-12' src={image14} alt='' />
+                        data-aos="fade-up"
+                        data-aos-duration="2900" data-aos-delay="600" id='arr4-2-11' src={image13} alt='' />
+                    <img
+                        data-aos="fade-up"
+                        data-aos-duration="3000" data-aos-delay="600" id='arr4-2-12' src={image14} alt='' />
                 </div>
             </div>
 
@@ -342,20 +348,20 @@ function Home() {
 
             <div id='arr5'>
                 <div id='arr5-1'>
-                <img id='sidebg' src={sidebg} alt=""/>
+                    <img id='sidebg' src={sidebg} alt="" />
                     <div id='arr5-1-1'>
-                        
+
                         <div className='div-flex' id='arr5-1-1-1'>
-                       
+
                             <img data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="300" className='img-block' src={tv} alt='' />
-                            
+                                data-aos-duration="1000" data-aos-delay="300" className='img-block' src={tv} alt='' />
+
                             <span data-aos="fade-up"
-                    data-aos-duration="3000" data-aos-delay="500"  className='head-small'> Run smart tv campaigns in a privacy-safe
+                                data-aos-duration="3000" data-aos-delay="500" className='head-small'> Run smart tv campaigns in a privacy-safe
                                 environment.</span>
                         </div>
                         <div data-aos="fade-up"
-                    data-aos-duration="3000" data-aos-delay="500"  id='arr5-1-1-2' className='sub-text'>
+                            data-aos-duration="3000" data-aos-delay="500" id='arr5-1-1-2' className='sub-text'>
                             Control how much data is exposed to other parties and ensure your
                             data is kept within an isolated environment.
                         </div>
@@ -363,11 +369,11 @@ function Home() {
                     </div>
                     <div id='arr5-1-2'>
                         <div data-aos="fade-up"
-                    data-aos-duration="2000" data-aos-delay="500"  className='div-flex' id='arr5-1-2-1'>
+                            data-aos-duration="2000" data-aos-delay="500" className='div-flex' id='arr5-1-2-1'>
                             <img className='img-block' src={lock} alt='' /><span className='head-small'> Build privacy-safe audience segments</span>
                         </div>
                         <div data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="400" id='arr5-1-2-2' className='sub-text'>Generate insights, build look-alike models, and support advanced
+                            data-aos-duration="1000" data-aos-delay="400" id='arr5-1-2-2' className='sub-text'>Generate insights, build look-alike models, and support advanced
                             measurement. We help build ideal customers cohorts while complying
                             with privacy regulations.
                         </div>
@@ -376,11 +382,11 @@ function Home() {
                     <div id='arr5-1-3'>
                         <div className='div-flex' id='arr5-1-3-1'>
                             <img data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="400" className='img-block' src={cash} alt='' /><span data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="400" className='head-small'> Maximise Ad Revenue and fill rate</span>
+                                data-aos-duration="1000" data-aos-delay="400" className='img-block' src={cash} alt='' /><span data-aos="fade-up"
+                                    data-aos-duration="1000" data-aos-delay="400" className='head-small'> Maximise Ad Revenue and fill rate</span>
                         </div>
                         <div data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="400" id='arr5-1-3-2' className='sub-text'>Maximise revenue using our hybrid auction system that allows for
+                            data-aos-duration="1000" data-aos-delay="400" id='arr5-1-3-2' className='sub-text'>Maximise revenue using our hybrid auction system that allows for
                             competition between SSPs, DSPs, Brands and Agencies through server
                             side unified auction ensuring maximum revenue and fill.</div>
                         {/* <div id='arr5-1-3-3'></div> */}
@@ -390,15 +396,15 @@ function Home() {
                     <div id='arr5-2-1'>
                         <div id='arr5-2-1-1'>
                             <span data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="400">Transfer information without the worry of data leak.</span>
+                                data-aos-duration="1000" data-aos-delay="400">Transfer information without the worry of data leak.</span>
                         </div>
                         <div className='div-flex' id='arr5-2-1-2'>
                             <img data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="400" className='img-block' src={hamburger} alt='' />
+                                data-aos-duration="1000" data-aos-delay="400" className='img-block' src={hamburger} alt='' />
                         </div>
                     </div>
                     <div data-aos="fade-up"
-                    data-aos-duration="2000" data-aos-delay="500" id='arr5-2-2'>9MO ensures safety of audience data by converting personally
+                        data-aos-duration="2000" data-aos-delay="500" id='arr5-2-2'>9MO ensures safety of audience data by converting personally
                         identifiable information into unique identifiers.
                         A marketer cannot reverse engineer our unique IDs to personally
                         identifiable information (PII). This can significantly reduce the
@@ -413,28 +419,28 @@ function Home() {
                 <div id='arr6-1'>
                     <img src={overflow} alt='' id='arr6-img' />
                     <div id='arr6-1-1-1' data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="400">Brands</div>
+                        data-aos-duration="1000" data-aos-delay="400">Brands</div>
                     <div id='arr6-1-1'>
                         <div id='arr6-1-1-2'>
                             <div className='heading' data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="500">High Precision Targeting</div>
+                                data-aos-duration="1000" data-aos-delay="500">High Precision Targeting</div>
                             <div className='subHeading' data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="500">Match your own audience data across streaming channels in a privacy-safe,
+                                data-aos-duration="1000" data-aos-delay="500">Match your own audience data across streaming channels in a privacy-safe,
                                 secure environment with unprecedented audience insights</div>
                         </div>
                         <div id='arr6-1-1-3'>
                             <div className='heading' data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="600">Cross Channel Cookie-less Conversions</div>
+                                data-aos-duration="1000" data-aos-delay="600">Cross Channel Cookie-less Conversions</div>
                             <div className='subHeading' data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="600">9MO tracks post-click conversions on an advertiser’s site by appending
+                                data-aos-duration="1000" data-aos-delay="600">9MO tracks post-click conversions on an advertiser’s site by appending
                                 privacy-friendly IDs through cross channel targeting.</div>
                         </div>
                     </div>
                     <div id='arr6-1-2'>
                         <div className='heading' data-aos="fade-up"
-                    data-aos-duration="2000" data-aos-delay="400">A Single point of Access</div>
+                            data-aos-duration="2000" data-aos-delay="400">A Single point of Access</div>
                         <div className='subHeading' data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="500">Reach and measure your audience across channels with
+                            data-aos-duration="1000" data-aos-delay="500">Reach and measure your audience across channels with
                             precision, scale, and transparency in a privacy-friendly way.
                             Optimize your media investments with a view of reach, attribution and
                             incremental impressions across TV Channels— all within a single
@@ -443,16 +449,16 @@ function Home() {
                     <div id='arr6-2'>
                         <div id='arr6-2-1'>
                             <img data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="400" src={privateMarket} alt='' id='arr6-2-img' />
+                                data-aos-duration="1000" data-aos-delay="400" src={privateMarket} alt='' id='arr6-2-img' />
                         </div>
                         <div id='arr6-2-2' >
-                            <div  id='arr6-2-2-1' data-aos="fade-up"
-                    data-aos-duration="2000" data-aos-delay="300">Channels</div>
+                            <div id='arr6-2-2-1' data-aos="fade-up"
+                                data-aos-duration="2000" data-aos-delay="300">Channels</div>
                             <div id='arr6-2-2-2' data-aos="fade-up"
-                    data-aos-duration="2000" data-aos-delay="500">Brands can buy PMP inventory easily and gain immediate access to 1400 pre-negotiated deals for connected TV.
+                                data-aos-duration="2000" data-aos-delay="500">Brands can buy PMP inventory easily and gain immediate access to 1400 pre-negotiated deals for connected TV.
                             </div>
                             <button id='arr6-2-2-3' data-aos="fade-up"
-                    data-aos-duration="3000" data-aos-delay="600">LEARN MORE</button>
+                                data-aos-duration="3000" data-aos-delay="600">LEARN MORE</button>
                         </div>
                     </div>
                 </div>
@@ -486,6 +492,8 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <LowerContact />
+          <Footer />
 
         </>
     )

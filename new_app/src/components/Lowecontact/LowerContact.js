@@ -1,7 +1,7 @@
 import React from 'react'
 import './LowerContact.css'
 import lowerfooteLogos from '../../assets/img/home/lowerfooteLogos.png'
-import getademo from '../../assets/img/home/Get a Demo.png'
+// import getademo from '../../assets/img/home/Get a Demo.png'
 const LowerContact = () => {
   return (
     <div>

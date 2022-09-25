@@ -4,6 +4,8 @@
     background-position: center;
     position: relative;
     /* margin: 10rem auto; */
+
+    overflow: hidden;
     background-size: cover;
     padding-top: 10rem;
 }
@@ -708,8 +710,58 @@
     text-fill-color: transparent;
 }
 
-#container{
+
+#back0{
+    display: flex;
+    /* background: linear-gradient(180deg, #00888F 0%, #2E012B 88.53%); */
     position: absolute;
-    top: 36%;
+    top: -20px;
+    height: 100%;
     z-index: -1;
+}
+
+
+#back11 {
+    animation: move11 15s linear infinite;
+    opacity: 1;
+    width: 100vw;
+}
+
+#back12 {
+    animation: move12 15s linear infinite;
+    opacity: 1;
+    width: 100vw;
+}
+
+@keyframes move11 {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes move12 {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(0%);
+    }
+
+    50.01% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+
 }
