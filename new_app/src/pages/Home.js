@@ -257,7 +257,7 @@ function Home() {
     return (
         <>
 
-            <Header text1="Privacy and Performance" text2=" By Design" subtext1="Smart TV add management made simple" buttonText="GET STARTED" />
+            <Header text1="Privacy and Performance" text2=" By Design" subtext1="Smart TV advertising made simple" buttonText="GET STARTED" />
             <div data-aos="fade-up"
                 data-aos-duration="1000" data-aos-delay="300" id='arr2'>
                 <div id='arr2-1'>Built for the future of smart TV Advertising</div>
