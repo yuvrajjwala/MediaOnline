@@ -27,10 +27,10 @@ function Header(props) {
                     <div className="logo"><img src={logo} alt="" /></div>
                     <ul>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/">Channels</Link></li>
-                        <li><Link to="/">Brands</Link></li>
-                        <li><Link to="/">Clients</Link></li>
-                        <li><Link to="/">Resources</Link></li>
+                        <li><Link to="/channels">Channels</Link></li>
+                        <li><Link to="/brands">Brands</Link></li>
+                        <li><Link to="/clients">Clients</Link></li>
+                        <li><Link to="/resources">Resources</Link></li>
                         {/* <li><a href="">Get in Touch</a></li> */}
                     </ul>
                     <div>
