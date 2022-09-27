@@ -23,10 +23,15 @@ import cash from '../assets/img/home/cash.png'
 import hamburger from '../assets/img/home/hamburger.png'
 import overflow from '../assets/img/home/071.png'
 import privateMarket from '../assets/img/home/PrivateMarketplace.png'
-import timeline from '../assets/img/home/Timeline.1549787a14cb87462894.svg'
+import timeline from '../assets/img/home/verticalLine.png'
+import t2016 from '../assets/img/home/2016.png'
+import t2017 from '../assets/img/home/2017.png'
+import t2018 from '../assets/img/home/2018.png'
+import t2019 from '../assets/img/home/2019.png'
+import t2020 from '../assets/img/home/2020.png'
+import t2021 from '../assets/img/home/2021.png'
+import t2024 from '../assets/img/home/2024.png'
 import circle_out from '../assets/img/home/Ellipse3.png'
-import circle_mid from '../assets/img/home/Ellipse2.png'
-import circle_in from '../assets/img/home/Ellipse1.png'
 import logo1 from '../assets/img/home/MaskGroup.png'
 import Testimonial from '../components/Testimonial/Testimonial'
 import sidebg from '../../src/assets/img/home/side-bg.svg'
@@ -475,7 +480,25 @@ function Home() {
                 data-aos-duration="1000" id='arr8-0'>How did we get here?</div>
             <div id='arr8'>
                 <div id='arr8-1'>
+                    <div id='timeline-left'>
+                        <img data-aos="fade-up"
+                            data-aos-duration="1000" id='t2016' className='relative' src={t2016} alt='' />
+                        <img data-aos="fade-up"
+                            data-aos-duration="1000" id='t2018' className='relative' src={t2018} alt='' />
+                        <img data-aos="fade-up"
+                            data-aos-duration="1000" id='t2020' className='relative' src={t2020} alt='' />
+                        <img data-aos="fade-up"
+                            data-aos-duration="1000" id='t2024' className='' src={t2024} alt='' />
+                    </div>
                     <img src={timeline} alt='' />
+                    <div id='timeline-right'>
+                        <img data-aos="fade-up"
+                            data-aos-duration="1000" id='t2017' className='relative' src={t2017} alt='' />
+                        <img data-aos="fade-up"
+                            data-aos-duration="1000" id='t2019' className='relative' src={t2019} alt='' />
+                        <img data-aos="fade-up"
+                            data-aos-duration="1000" id='t2021' className='relative' src={t2021} alt='' />
+                    </div>
                 </div>
                 <div id='arr8-2'>
                     <div id='arr8-2-1'>
@@ -493,7 +516,7 @@ function Home() {
                 </div>
             </div>
             <LowerContact />
-          <Footer />
+            <Footer />
 
         </>
     )

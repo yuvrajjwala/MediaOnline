@@ -502,12 +502,16 @@
 
     color: #000000;
 }
-
-/* #arr8-1{
+.relative{
+    position: absolute;
+}
+#arr8-1{
     display: flex;
-    width: 45%;
-} */
-
+}
+#timeline-left, #timeline-right{
+    width: min-content;
+    position: relative;
+}
 .time {
     text-align: right;
 }
@@ -517,7 +521,30 @@
     display: flex;
     
 }
-
+#t2016{
+    transform: translateY(35px) translateX(10px);
+}
+#t2017{
+    transform: translateY(157px) translateX(-8px);
+}
+#t2018{
+    transform: translateY(269px) translateX(5px);
+}
+#t2019{
+    transform: translateY(376px) translateX(-8px);
+}
+#t2020{
+    transform: translateY(602px) translateX(8px);
+}
+#t2021{
+    transform: translateY(701px) translateX(-7px);
+}
+#t2024{
+    transform: translateY(878px) translateX(8px);
+}
+#timeline-right{
+    width: 252px;
+}
 
 #arr8-2-1 {
     position: relative;
@@ -535,7 +562,7 @@
 
 #arr8-img1 {
     top: 65px;
-    left: 105px;
+    left: 189px;
     animation: grow 2s ease-in-out infinite;
 }
 
@@ -544,7 +571,7 @@
     /* top: 115px;
     left: 155px; */
     top: 65px;
-    left: 105px;
+    left: 189px;
     animation: grow 2s ease-in-out infinite;
     animation-delay: 0.2s;
 
@@ -554,14 +581,15 @@
     /* top: 160px;
     left: 200px; */
     top: 65px;
-    left: 105px;
+    left: 189px;
     animation: grow 2s ease-in-out infinite;
     animation-delay: 0.5s;
 }
 
 #arr8-img4 {
     scale: 0.4;
-    top: 10px;
+    top: 35px;
+    left: 189px;
 }
 
 @keyframes grow {
