@@ -9,6 +9,9 @@
     background-size: cover;
     padding-top: 10rem;
 }
+.logo img{
+    height: 80px;
+}
 
 
 #arr2-1 {
