@@ -482,22 +482,22 @@ function Home() {
                 <div id='arr8-1'>
                     <div id='timeline-left'>
                         <img data-aos="fade-up"
-                            data-aos-duration="1000" id='t2016' className='relative' src={t2016} alt=''  draggable='false' />
+                            data-aos-duration="500" data-aos-delay="300"  id='t2016' className='relative' src={t2016} alt=''  draggable='false' />
                         <img data-aos="fade-up"
-                            data-aos-duration="1000" id='t2018' className='relative' src={t2018} alt=''  draggable='false' />
+                            data-aos-duration="500" data-aos-delay="1500"  id='t2018' className='relative' src={t2018} alt=''  draggable='false' />
                         <img data-aos="fade-up"
-                            data-aos-duration="1000" id='t2020' className='relative' src={t2020} alt=''  draggable='false' />
+                            data-aos-duration="500" id='t2020' className='relative' data-aos-delay="2500" src={t2020} alt=''  draggable='false' />
                         <img data-aos="fade-up"
-                            data-aos-duration="1000" id='t2024' className='' src={t2024} alt=''  draggable='false' />
+                            data-aos-duration="1000" id='t2024' className='' data-aos-delay="3000" src={t2024} alt=''  draggable='false' />
                     </div>
                     <img src={timeline} alt=''   draggable='false'/>
                     <div id='timeline-right'>
                         <img data-aos="fade-up"
-                            data-aos-duration="1000" id='t2017' className='relative' src={t2017} alt=''      draggable='false'/>
+                            data-aos-duration="500" data-aos-delay="1000"  id='t2017' className='relative' src={t2017} alt=''      draggable='false'/>
                         <img data-aos="fade-up"
-                            data-aos-duration="1000" id='t2019' className='relative' src={t2019} alt=''  draggable='false' />
+                            data-aos-duration="500" id='t2019' className='relative' data-aos-delay="2000" src={t2019} alt=''  draggable='false' />
                         <img data-aos="fade-up"
-                            data-aos-duration="1000" id='t2021' className='relative' src={t2021} alt=''      draggable='false'/>
+                            data-aos-duration="500"  id='t2021' className='relative' data-aos-delay="3000" src={t2021} alt=''      draggable='false'/>
                     </div>
                 </div>
                 <div id='arr8-2'>

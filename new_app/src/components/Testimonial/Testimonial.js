@@ -6,6 +6,7 @@ import tv1 from "../../assets/img/home/image27.png";
 import tv2 from "../../assets/img/home/image28.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import testBg from "../../assets/img/home/Group52.png";
 
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import './Testimonial.css'
@@ -54,14 +55,16 @@ function Testimonial() {
 
   return (
     <div className="App1">
+     
 
       <div className="slider-wrapper">
-
+      <img id="img-test" src={testBg}></img>
         <Slider {...settings}>
 
           {slidesData.map((slide, idx) =>
 
             <div className={idx === imageIndex ? "slide activeSlide" : "slide"} key={slide.id}>
+              
               <div className="card">
                 <div className="cardHead">
                   <img src={slide.img} alt='' className="cardImg" />
@@ -90,3 +93,7 @@ function Testimonial() {
 }
 
 export default Testimonial;
+
+
+
+
