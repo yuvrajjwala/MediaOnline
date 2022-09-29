@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './header.css';
 import logo from '../assets/img/home/Rectangle62.png';
-import back from '../assets/img/home/lines.png'
+import back from '../assets/img/home/Lines.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

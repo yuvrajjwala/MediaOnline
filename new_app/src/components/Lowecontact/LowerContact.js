@@ -12,7 +12,7 @@ const LowerContact = () => {
             <div data-aos="fade-up"
                     data-aos-duration="1000" data-aos-delay="400">9MO tracks post-click conversions on an advertiser’s site by appending privacy-friendly IDs through cross channel targeting.</div>
             <div><img data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="400" src={lowerfooteLogos}></img></div>
+                    data-aos-duration="1000" data-aos-delay="400" src={lowerfooteLogos} id='lowfootimg'></img></div>
          </div>
          <div  className='lower-conter-right' data-aos="fade-up"
                     data-aos-duration="1000" data-aos-delay="400">

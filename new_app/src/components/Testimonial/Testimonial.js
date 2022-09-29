@@ -14,18 +14,34 @@ import './Testimonial.css'
 const images = [tv1, tv2, tv];
 
 function Testimonial() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 300,
-    // slidesToShow: 3,
-    infinite: true,
-    lazyLoad: true,
-    slidesToShow: 2.33,
-    centerMode: true,
-    centerPadding: 10,
-    beforeChange: (current, next) => setImageIndex(next),
-  };
+  if(window.innerWidth > 1100 ){
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 300,
+      // slidesToShow: 3,
+      infinite: true,
+      lazyLoad: true,
+      slidesToShow: 2.33,
+      centerMode: true,
+      centerPadding: 10,
+      beforeChange: (current, next) => setImageIndex(next),
+    };
+  }
+  else{
+    var settings = {
+      dots: true,
+      infinite: true,
+      speed: 300,
+      // slidesToShow: 3,
+      infinite: true,
+      lazyLoad: true,
+      slidesToShow: 1,
+      centerMode: true,
+      centerPadding: 10,
+      beforeChange: (current, next) => setImageIndex(next),
+    };
+  }
 
   const slidesData = [
     {
