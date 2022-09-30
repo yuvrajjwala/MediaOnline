@@ -312,4 +312,13 @@
         font-size: 25px;
         padding: 1rem;
     }
+    #b-arr12 {
+        width: 100%;
+        margin-left: 0%;
+    }
+    #last-btn1 {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
 }

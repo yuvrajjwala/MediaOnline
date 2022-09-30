@@ -235,7 +235,8 @@
 @media only screen and (max-width:1100px) {
     #c-arr11 {
         width: 100%;
-        margin: 1rem;
+        margin: 0rem;
+        margin-bottom: 20px;
         font-size: 25px;
         text-align: center;
     }
@@ -245,6 +246,19 @@
         line-height: 166.19%;
         width: 100%;
         padding: 0.5rem;
+    }
+    #c-arr12 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        margin-left: 0%;
+        background: linear-gradient(102.57deg, #00888F 0%, #670261 77.59%), linear-gradient(180deg, #232323 0%, #101010 100%);
+        /* width: 1366px; */
+        justify-content: space-between;
+        padding: 5rem 5rem;
+        box-sizing: border-box;
+        min-height: 645px;
     }
 
     #arr121 {
@@ -258,7 +272,7 @@
         margin-right: auto;
         text-align: justify;
         letter-spacing: -1px;
-        margin: 2rem 0px;
+        margin: 2rem -7px;
         color: #FFFFFF;
     }
     #c-arr12{
@@ -317,7 +331,7 @@
     .mini-area {
         display: flex;
         align-items: center;
-        width: 50%;
+        width: 100%;
         margin: 1vw;
     }
     #last-head{
