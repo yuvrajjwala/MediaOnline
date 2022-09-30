@@ -10,11 +10,15 @@ const Footer = () => {
    return (
       <div className='footer-main'>
          <div className='footer-container'>
+            
             <div className='footer-left'>
                <img src={footerlogo} alt="Media Online" />
             </div>
+            
+            
             <div className='footer-right'>
-               <div>
+            <div className='footer-left-main-container'>
+               <div >
                   <div className='quick-links'>
                      <div className='quicklinks-container'>
                         <span className='link-footer'>HOME</span>
@@ -29,7 +33,7 @@ const Footer = () => {
                   </div>
                   <div></div>
                </div>
-               <div>
+               <div className='get-main-head'>
                   <div className='get-in-touch'>GET IN TOUCH</div>
                   <p className='get-in-touch-p'>506 S Spring St #13308 SMB#30037 Los Angeles, CA 90013<br></br><br></br>
 
@@ -41,6 +45,7 @@ const Footer = () => {
                </div>
               
             </div>
+            </div>
          </div>
          <div className='footer-bottom'>
                   <ul>
@@ -49,9 +54,10 @@ const Footer = () => {
                      <li>Status</li>
                      <li>Legal</li>
                      <li>Do Not Sell My Personal Information</li>
-                     <li><img src={twitter}/></li>
-                     <li><img src={likedin}/></li>
-                     
+                     <div>
+                     <li id='twit'><img src={twitter}/></li>
+                     <li id='lin'><img src={likedin}/></li>
+                     </div>
                   </ul>
                </div>
       </div>
