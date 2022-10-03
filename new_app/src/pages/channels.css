@@ -338,3 +338,35 @@
         width: 100%;
     }
 }
+
+
+@media only screen and (max-width:1350px){
+    #arr12-img {
+        top: -40%;
+        width: 58%;
+    }
+    #c-arr11 {
+        font-size: 43px;
+    }
+    #arr121 {
+        font-size: 15px;
+        width: 40%;
+    }
+    #arr122{
+        font-size: 28px;
+    }
+    .area-right{
+        font-size: 15px;
+        width: 40%;
+    }
+    .area-left{
+        font-size: 50px;
+        width: 35%;
+    }
+    #c-head {
+        width: 30%;
+    }
+    #last-head {
+        width: 45%;
+    }
+}

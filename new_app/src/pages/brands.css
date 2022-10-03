@@ -322,4 +322,50 @@
         margin-top: 50px;
     }
 }
+@media only screen and (max-width:1600px){
+    #attr{
+        width: 20%;
+    }
+}
 
+@media only screen and (max-width:1350px){
+    #barr12-img {
+        top: -56.5%;
+        width: 55%;
+    }
+    #barr121{
+        font-size: 25px;
+    }
+    #b-arr12 {
+        min-height: 450px;
+    }
+    #b-arr11{
+        font-size: 40px;
+    }
+    #b-new {
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+    .b-arr2 img{
+        width: 40%;
+    }
+    .side-1{
+        width: 100%;
+        font-size: 42px;
+    }
+    .side-2{
+        font-size: 17px;
+    }
+    .b-arr2{
+        padding: 2rem;
+    }
+    #attr{
+        width: 20%;
+    }
+    #b-arr3 {
+        padding: 0 1rem;
+    }
+    #b-arr3 img{
+        width: 50%;
+    }
+}
