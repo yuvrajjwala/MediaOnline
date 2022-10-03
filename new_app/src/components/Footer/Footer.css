@@ -74,6 +74,9 @@
 .footer-bottom{
    padding-bottom: 50px;
   }
+  .footer-left-main-container{
+   display: flex;
+  }
 @media screen and (min-width: 1600px) {
   .footer-bottom ul{
    margin-left:26vw;
@@ -141,6 +144,7 @@
 }
 .footer-left-main-container{
    width: 100vw;
+   display: block;
 }
 .quick-links{
    width: 100vw;

@@ -54,14 +54,14 @@ function Testimonial() {
     }, {
       id: 2,
       img: tv,
-      heading: 'Sofi Girich',
+      heading: 'Arlyna Yanti',
       subHead: 'SmartLine TV',
       content1: `At SmartlineTV we are always looking for reliable partners from the demand and supply side. For 3 years we have been working with 9MediaOnline, selling CTV inventory to them, we performed extremely and got access to premium advertisers, relevant for the publishers we’re working with.`,
       content2:`Throughout this process, we have been impressed with the quality of their work and the professional attitude of their staff. They perfectly meet payment deadlines and the results of our 3-year cooperation are astonishing. Overall we’re pleased with mutual cooperation and we strongly recommend working with 9MediaOnline.`
     }, {
       id: 3,
       img: tv2,
-      heading: 'Sofi Girich',
+      heading: 'Freewheel',
       subHead: 'SmartLine TV',
       content1: `We appreciate our partnership with 9MediaOnline thanks to their professionalism and understanding of our needs.`,
       content2:''
