@@ -1,0 +1,7 @@
+.company-img-container{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}

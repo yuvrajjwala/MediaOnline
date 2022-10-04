@@ -54,7 +54,7 @@ const Footer = () => {
                      <li>Status</li>
                      <li>Legal</li>
                      <li>Do Not Sell My Personal Information</li>
-                     <div>
+                     <div style={{display:"flex"}}>
                      <li id='twit'><img src={twitter}/></li>
                      <li id='lin'><img src={likedin}/></li>
                      </div>
