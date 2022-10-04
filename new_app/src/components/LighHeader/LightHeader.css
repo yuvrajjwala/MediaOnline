@@ -455,10 +455,10 @@ nav {
 
     .header-light .headText-light {
         width: 85%;
-        font-size: 50px;
+        font-size: 45px;
         margin-left: 2rem;
-        margin-top: 6rem;
-        line-height: 90px;
+        margin-top: 1rem;
+        line-height: 74px;
     }
 
     .header-light .subText-light {
@@ -526,7 +526,7 @@ nav {
     }
 
     .head-head {
-        width: 55%;
+        width: 81%;
         margin: auto;
     }
 
