@@ -6,6 +6,7 @@ import Brands from './pages/Brands'
 import Influencers from './pages/Influencers'
 import Customer from './components/customers/customer';
 import LightHeader from './components/LighHeader/LightHeader';
+import About from './pages/About/About';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/channels" element={<Channels />}></Route>
           <Route path="/brands" element={<Brands />}></Route>
           <Route path="/customer" element={<Customer />}></Route>
+          <Route path="/about" element={<About />}></Route>
           <Route path="/influencers" element={<Influencers />}></Route>
         </Routes>
       </BrowserRouter>

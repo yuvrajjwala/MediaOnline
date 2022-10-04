@@ -18,3 +18,19 @@
 #asana, #asana1{
    height: 40px;
 }
+
+
+
+@media screen and (max-width: 1000px){
+   .company-img-container img {
+      height: 39px;
+      margin: 15px;
+   }
+   .company-img-container{
+      width: 102vw;
+      justify-content: space-evenly;
+   }
+   #asana, #asana1 {
+      height: 23px;
+  }
+}
