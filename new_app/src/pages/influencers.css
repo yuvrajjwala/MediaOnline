@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 17px;
+    line-height: 35px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -36,9 +36,11 @@
 #in-arr3 {
     display: flex;
     flex-wrap: wrap;
+    width: 90vw;
+    margin: auto;
     align-items: center;
     justify-content: space-evenly;
-    margin: 5rem 0px;
+    margin: 5rem auto;
 }
 
 .in-flex-div {
@@ -64,7 +66,7 @@
     width: 80%;
     margin: auto;
     color: #000000;
-
+    margin-top: 20px;
 }
 
 
