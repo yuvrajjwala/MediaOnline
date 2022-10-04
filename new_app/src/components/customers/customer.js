@@ -1,16 +1,17 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
 import LightHeader from '../LighHeader/LightHeader'
+import './customer.css'
 
 const customer = () => {
   return (
     <div>
-      <LightHeader/>
+      <LightHeader text0="OUR CUSTOMERS" text1="A look at some of our partners transforming their business using our services." buttonText="GET STARTED"/>
         <div className='company-img-container'>
           <img src='./images/Target-logo 1.png'></img>
           <img src='./images/Citigroup-Logo 2.png'></img>
-          <img src='./images/Vector (3).png'></img>
-          <img src='./images/Vector (4).png'></img>
+          <img id='asana' src='./images/Vector (3).png'></img>
+          <img id='asana1' src='./images/Vector (4).png'></img>
           <img src='./images/9MediaOnline Remark 1.png'></img>
           <img src='./images/stroeer-logo-vector.png'></img>
           <img src='./images/yahoo.png'></img>
