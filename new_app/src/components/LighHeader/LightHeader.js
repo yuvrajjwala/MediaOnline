@@ -35,7 +35,7 @@ function closecontainer(){
           </ul>
           <div>
             {/* <button id="get-started"><span>{props.buttonText}</span></button> */}
-            <div onClick={opencontainer} id="header-ham-menu"><img src={menu} alt="≣"></img></div>
+            <div onClick={opencontainer} id="header-ham-menu"><img id='menu1' src={menu} alt="≣"></img></div>
           </div>
           <div id="mob-menu-container-light">
             <div className="mob-cont-top-light">
@@ -47,8 +47,10 @@ function closecontainer(){
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/channels">Channels</Link></li>
                 <li><Link to="/brands">Brands</Link></li>
+                <li><Link to="/customer">Customers</Link></li>
               </ul>
             </div>
+            <button id="get-started1"><span>GET STARTED</span></button>
           </div>
         </nav>
         <div className='head-head'>{props.text0}</div>

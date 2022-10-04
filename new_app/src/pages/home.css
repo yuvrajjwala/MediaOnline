@@ -38,7 +38,28 @@
     display: block;
     margin: auto;
 }
-
+#book-a-free{
+    border: none;
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-weight: 500;
+    background: linear-gradient(90.23deg, #0098BB 18.77%, #340031 83.27%), #000000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border: 1px solid #00888F;
+}
+#book-a-free:hover{
+    transform: scale(1.1);
+}
 
 #arr2-2-1 {
     font-family: 'Inter';

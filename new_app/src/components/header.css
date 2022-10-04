@@ -38,6 +38,7 @@ nav {
 .header nav ul li a {
     color: white;
     text-decoration: none;
+    width: 100vw;
 }
 
 .header nav ul li {
@@ -45,6 +46,11 @@ nav {
     transition-duration: 0.5s;
     /* margin: 1rem; */
 
+}
+#get-started1{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
 }
 #get-started{
     transition-duration: 0.5s;
@@ -254,8 +260,9 @@ nav {
     padding-left: 0px;
 }
 .list-mob-cont ul li{
-    border-bottom: 2px solid white;
-    margin-bottom: 40px;
+    border-bottom: 1px solid white;
+    margin-bottom: 19px;
+    padding-bottom: 17px;
 }
 .list-mob-cont li a{
     display: block !important;

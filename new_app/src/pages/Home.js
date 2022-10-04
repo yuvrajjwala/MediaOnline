@@ -268,8 +268,9 @@ function Home() {
                         data-aos="fade-up"
                         data-aos-duration="3000" data-aos-delay="600" id='arr4-2-12' src={image14} alt='' />
                 </div>
+                
             </div>
-
+            <button id='book-a-free'>Book a free Consultation</button>
 
 
 

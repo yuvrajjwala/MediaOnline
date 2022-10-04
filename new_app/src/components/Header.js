@@ -54,7 +54,11 @@ function Header(props) {
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/channels">Channels</Link></li>
                                 <li><Link to="/brands">Brands</Link></li>
+                                <li><Link to="/customer">Customers</Link></li>
                             </ul>
+                            <div>
+                            <button id="get-started1"><span>GET STARTED</span></button>
+                            </div>
                         </div>
                     </div>
                 </nav>
