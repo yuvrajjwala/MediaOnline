@@ -10,13 +10,13 @@ import 'aos/dist/aos.css';
 AOS.init()
 
 function Header(props) {
-    function opencontainer(){
-        document.getElementById("mob-menu-container").style.width="100vw";
+    function opencontainer() {
+        document.getElementById("mob-menu-container").style.width = "100vw";
     }
-    function closecontainer(){
-        document.getElementById("mob-menu-container").style.width="0vw";
+    function closecontainer() {
+        document.getElementById("mob-menu-container").style.width = "0vw";
     }
-   
+
 
     return (
         <>
@@ -26,8 +26,8 @@ function Header(props) {
                 {/* <div id="wave"></div> */}
 
                 <div id="back">
-                    <img src={back} alt='' id="back1"/>
-                <img src={back} alt='' id="back2"/>
+                    <img src={back} alt='' id="back1" />
+                    <img src={back} alt='' id="back2" />
 
                 </div>
                 <nav>
@@ -36,13 +36,16 @@ function Header(props) {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/channels">Channels</Link></li>
                         <li><Link to="/brands">Brands</Link></li>
+                        <li><Link to="/influencers">Influncers</Link></li>
                         <li><Link to="/clients">Clients</Link></li>
-                        <li><Link to="/resources">Resources</Link></li>
+                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/contact">Get in touch</Link></li>
+                        {/* <li><Link to="/resources">Resources</Link></li> */}
                         {/* <li><a href="">Get in Touch</a></li> */}
                     </ul>
                     <div>
-                    <button id="get-started"><span>{props.buttonText}</span></button>
-                    <div onClick={opencontainer} id="header-ham-menu"><img src={menu} alt="≣"></img></div>
+                        <button id="get-started"><span>{props.buttonText}</span></button>
+                        <div onClick={opencontainer} id="header-ham-menu"><img src={menu} alt="≣"></img></div>
                     </div>
                     <div id="mob-menu-container">
                         <div className="mob-cont-top">
@@ -54,19 +57,22 @@ function Header(props) {
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/channels">Channels</Link></li>
                                 <li><Link to="/brands">Brands</Link></li>
-                                <li><Link to="/customer">Customers</Link></li>
+                                <li><Link to="/influencers">Influncers</Link></li>
+                                <li><Link to="/clients">Clients</Link></li>
+                                <li><Link to="/about">About</Link></li>
+                                <li><Link to="/contact">Get in Touch</Link></li>
                             </ul>
                             <div>
-                            <button id="get-started1"><span>GET STARTED</span></button>
+                                <button id="get-started1"><span>GET STARTED</span></button>
                             </div>
                         </div>
                     </div>
                 </nav>
 
-                <div  className="headText">{props.text1} <span>{props.text2}</span></div>
+                <div className="headText">{props.text1} <span>{props.text2}</span></div>
                 <div className="subText">{props.subtext1}</div>
 
-                
+
             </div>
         </>)
 }

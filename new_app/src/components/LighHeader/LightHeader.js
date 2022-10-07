@@ -6,12 +6,12 @@ import menu from '../../assets/img/home/menu.png'
 import './LightHeader.css'
 
 const LightHeader = (props) => {
-  function opencontainer(){
-    document.getElementById("mob-menu-container-light").style.width="100vw";
-}
-function closecontainer(){
-    document.getElementById("mob-menu-container-light").style.width="0vw";
-}
+  function opencontainer() {
+    document.getElementById("mob-menu-container-light").style.width = "100vw";
+  }
+  function closecontainer() {
+    document.getElementById("mob-menu-container-light").style.width = "0vw";
+  }
   return (
     <>
       <div className="header-light">
@@ -29,8 +29,9 @@ function closecontainer(){
             <li><Link to="/">Home</Link></li>
             <li><Link to="/channels">Channels</Link></li>
             <li><Link to="/brands">Brands</Link></li>
+            <li><Link to="/influencers">Influncers</Link></li>
             <li><Link to="/clients">Clients</Link></li>
-            <li><Link to="/resources">Resources</Link></li>
+            <li><Link to="/about">About</Link></li>
             {/* <li><a href="">Get in Touch</a></li> */}
           </ul>
           <div>
@@ -47,7 +48,11 @@ function closecontainer(){
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/channels">Channels</Link></li>
                 <li><Link to="/brands">Brands</Link></li>
-                <li><Link to="/customer">Customers</Link></li>
+                <li><Link to="/influencers">Influncers</Link></li>
+                <li><Link to="/clients">Clients</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/contact">Get in Touch</Link></li>
+
               </ul>
             </div>
             <button id="get-started1"><span>GET STARTED</span></button>
@@ -56,7 +61,8 @@ function closecontainer(){
         <div className='head-head'>{props.text0}</div>
         <div className="headText-light">{props.text1} <span>{props.text2}</span></div>
         <div className="subText-light">{props.subtext1}</div>
-        <button id="get-started-light"><span>{props.buttonText}</span></button>
+        {props.buttonText!=""?(<button id="get-started-light"><span>{props.buttonText}</span></button>):(<div></div>)}
+        
 
       </div>
     </>

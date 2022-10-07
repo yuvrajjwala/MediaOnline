@@ -7,6 +7,7 @@ import Influencers from './pages/Influencers'
 import Customer from './components/customers/customer';
 import LightHeader from './components/LighHeader/LightHeader';
 import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/channels" element={<Channels />}></Route>
           <Route path="/brands" element={<Brands />}></Route>
-          <Route path="/customer" element={<Customer />}></Route>
+          <Route path="/clients" element={<Customer />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/influencers" element={<Influencers />}></Route>
+          <Route path='/contact' element={<Contact/>}></Route>
         </Routes>
       </BrowserRouter>
     </>

@@ -35,13 +35,12 @@ const Footer = () => {
                </div>
                <div className='get-main-head'>
                   <div className='get-in-touch'>GET IN TOUCH</div>
-                  <p className='get-in-touch-p'>506 S Spring St #13308 SMB#30037 Los Angeles, CA 90013<br></br><br></br>
+                  <p className='get-in-touch-p'>India | Singapore | Malaysia | Dubai<br></br>
+                  +1 513 318 7199<br></br>
+                  +65 31 634 651
+                  </p>
 
-                     +1 513 318 7199<br></br><br></br>
-
-                     10 Anson Road #22-02 International Plaza | Singapore<br></br><br></br>
-
-                     +65 31 634 651</p>
+                  
                </div>
               
             </div>

@@ -79,17 +79,23 @@
     #in-arr2 {
         font-size: 25px;
         line-height: 40px;
+        margin-left: 15px;
+        margin-right: 15px;
+
     }
 
-    .in-flex-div{
-        width: 40vw;
-    margin: 5vw;
+    .in-flex-div {
+        width: 34vw;
+        margin: 5vw;
     }
-    .in-flex-div img{
+
+    .in-flex-div img {
         width: 60px;
     }
-    .flex-div{
-        font-size: 15px;
+
+    .flex-div {
+        font-size: 12px;
+        line-height: 20px;
         width: 100%;
     }
 }

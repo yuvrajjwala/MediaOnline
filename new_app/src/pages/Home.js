@@ -42,145 +42,7 @@ import Footer from '../components/Footer/Footer';
 import LowerContact from '../components/Lowecontact/LowerContact';
 AOS.init()
 function Home() {
-    setTimeout(() => {
-        var waves = new SineWaves({
-            el: document.getElementById('waves'),
-
-            speed: 2,
-
-            ease: 'SineInOut',
-
-            wavesWidth: '150%',
-
-            waves: [
-                // SINE WAVE-----------------
-                {
-                    timeModifier: 3,
-                    lineWidth: 5,
-                    amplitude: -265,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 5,
-                    amplitude: -245,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 4,
-                    amplitude: -225,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 4,
-                    amplitude: -205,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 4,
-                    amplitude: -185,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 3,
-                    amplitude: -165,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 3,
-                    amplitude: -145,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 3,
-                    amplitude: -125,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 3,
-                    amplitude: -105,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 2,
-                    amplitude: -85,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 2,
-                    amplitude: -65,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 2,
-                    amplitude: -45,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 2,
-                    amplitude: -25,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 1,
-                    amplitude: 5,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 1,
-                    amplitude: 25,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 1,
-                    amplitude: 45,
-                    wavelength: 135
-                },
-                {
-                    timeModifier: 3,
-                    lineWidth: 1,
-                    amplitude: 65,
-                    wavelength: 135
-                }
-
-
-            ],
-
-            // Called on window resize
-            resizeEvent: function () {
-                var gradient = this.ctx.createLinearGradient(0, 0, this.width, 0);
-                gradient.addColorStop(0, "#01868fd1");
-                gradient.addColorStop(0.5, "#3D4480");
-                gradient.addColorStop(1, "#770370c7");
-
-                var index = -1;
-                var length = this.waves.length;
-                while (++index < length) {
-                    this.waves[index].strokeStyle = gradient;
-                }
-
-                // Clean Up
-                index = void 0;
-                length = void 0;
-                gradient = void 0;
-            }
-        });
-
-    }, 500);
+  
     return (
         <>
 
@@ -196,12 +58,12 @@ function Home() {
                     </div>
                 </div>
                 <img data-aos="zoom-in"
-                    data-aos-duration="1500" data-aos-delay="400" src={image1} alt='' id="arr2-3" />
+                    data-aos-duration="1000" data-aos-delay="400" src={image1} alt='' id="arr2-3" />
                 <div id='arr2-2'>
                     <div data-aos="fade-up"
-                        data-aos-duration="3000" data-aos-delay="700" id='arr2-2-1'>ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES</div>
+                        data-aos-duration="1500" data-aos-delay="700" id='arr2-2-1'>ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES</div>
                     <div data-aos="fade-up"
-                        data-aos-duration="3000" data-aos-delay="900" id='arr2-2-2'>Data fragmentation and degradation of third party cookies
+                        data-aos-duration="1500" data-aos-delay="900" id='arr2-2-2'>Data fragmentation and degradation of third party cookies
                         has allowed us to harness opportunities and reimagine how
                         audience targeting, Attribution can be brought forward in a
                         privacy-focussed manner.</div>
@@ -226,18 +88,18 @@ function Home() {
             <div id="arr4">
                 <div id='arr4-1'>
                     <div data-aos="fade-up"
-                        data-aos-duration="2000" data-aos-delay="300" id='arr4-1-1'>CHANNELS</div>
+                        data-aos-duration="1500" data-aos-delay="300" id='arr4-1-1'>CHANNELS</div>
                     <div data-aos="fade-up"
-                        data-aos-duration="2000" data-aos-delay="500" id='arr4-1-2'>Safeguard your audience and your
+                        data-aos-duration="1500" data-aos-delay="500" id='arr4-1-2'>Safeguard your audience and your
                         revenue.</div>
                     <div data-aos="fade-up"
-                        data-aos-duration="3000" data-aos-delay="600" id='arr4-1-3'>Activate your channel audience, without exposing any data. Connect with advertisers securely. Build privacy-safe audience segments. Transfer Data without the worry of data leak.</div>
+                        data-aos-duration="1500" data-aos-delay="600" id='arr4-1-3'>Activate your channel audience, without exposing any data. Connect with advertisers securely. Build privacy-safe audience segments. Transfer Data without the worry of data leak.</div>
                 </div>
                 <div id='arr4-2'>
                     <img data-aos="fade-up"
                         data-aos-duration="1000" data-aos-delay="300" id='arr4-2-1' src={image3} alt='' />
                     <img data-aos="fade-up"
-                        data-aos-duration="1200" data-aos-delay="350" id='arr4-2-2' src={image4} alt='' />
+                        data-aos-duration="1000" data-aos-delay="350" id='arr4-2-2' src={image4} alt='' />
                     <img
                         data-aos="fade-up"
                         data-aos-duration="1500" data-aos-delay="350" id='arr4-2-3' src={image5} alt='' />
@@ -285,7 +147,7 @@ function Home() {
                                 data-aos-duration="1000" data-aos-delay="300" className='img-block' src={tv} alt='' />
 
                             <span data-aos="fade-up"
-                                data-aos-duration="3000" data-aos-delay="500" className='head-small'> Run smart tv campaigns in a privacy-safe
+                                data-aos-duration="2000" data-aos-delay="500" className='head-small'> Run smart tv campaigns in a privacy-safe
                                 environment.</span>
                         </div>
                         <div data-aos="fade-up"
