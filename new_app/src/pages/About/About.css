@@ -110,19 +110,19 @@
     color: #000000;
 }
 
-.flex-2{
+.flex-2 {
     background: linear-gradient(90deg, #00888F 0%, #770370 100%);
     height: 2px;
     margin: 1rem 0;
     width: 80%;
 }
 
-.felx-about{
+.felx-about {
     width: 25%;
     margin: 2rem 0;
 }
 
-#flex-area{
+#flex-area {
     padding: 2rem 15rem;
     display: flex;
     /* align-items: center; */
@@ -131,88 +131,182 @@
     justify-content: space-evenly;
 }
 
-#flex1{
+#flex1 {
     width: 75%;
 }
-#flex2{
+
+#flex2 {
     width: 80%;
 }
-#long{
+
+#long {
     width: 106%;
 }
 
-#long-1{
-    width: 40%;
-}
-#long-2{
+#long-1 {
     width: 40%;
 }
 
-#long-1 .flex-1{
+#long-2 {
+    width: 40%;
+}
+
+#long-1 .flex-1 {
     width: 50%;
 }
-#long-2 .flex-1{
+
+#long-2 .flex-1 {
     width: 63%;
 }
 
-#long-1 .flex-3{
+#long-1 .flex-3 {
     width: 97%;
     text-align: justify;
 }
-#long-2 .flex-3{
+
+#long-2 .flex-3 {
     width: 105%;
     /* text-align: justify; */
 }
+
+#mobile {
+    display: none;
+}
+
 /* @media only screen and (max-width:1600px) {
     
 } */
 
-@media only screen and (max-width:1350px){
-    #width{
+@media only screen and (max-width:1350px) {
+    #width {
         width: 95%;
     }
-    .about-padding{
+
+    .about-padding {
         padding: 5rem 1rem;
     }
-    #width1{
+
+    #width1 {
         width: 97%;
     }
-    #flex-area{
+
+    #flex-area {
         padding: 2rem 1rem;
     }
-    #long-1{
+
+    #long-1 {
         width: 42%;
     }
-    #long-2{
+
+    #long-2 {
         width: 41%;
     }
 }
 
-@media only screen and (max-width:1100px){
-    #ab-arr1{
+@media only screen and (max-width:1100px) {
+    #ab-arr1 {
+        display: none;
         width: 90%;
         margin-left: 10vw;
-        transform: translateY(0);    
+        transform: translateY(0);
     }
-    .color{
+
+    .color {
         font-size: 30px;
     }
-    .black{
+
+    .black {
         font-size: 15px;
         text-align: justify;
         line-height: 25px;
     }
-    .about-padding{
+
+    .about-padding {
         padding-bottom: 2rem;
         padding-top: 2rem;
     }
-    .felx-about{
+
+    .felx-about {
         width: 90%;
     }
-    #long-1,#long-2{
+
+    #long-1,
+    #long-2 {
         width: 90%;
     }
-    #long-2 .flex-1{
+
+    #long-2 .flex-1 {
         width: 90%;
+    }
+
+    #mobile img {
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+
+    #mobile {
+        width: 90%;
+        position: relative;
+        display: block;
+        /* border: 3px solid;
+        border-image-source: linear-gradient(180deg, #00888F 0%, #770370 100%); */
+        margin: auto;
+    }
+
+    #mobile::before{
+        content: ' ';
+        position: absolute;
+        width: calc(100% + 6px);
+        height: calc(100% + 6px);
+        background: linear-gradient(180deg, #00888F 0%, #770370 100%);
+        top: -3px;
+        left: -3px;
+        z-index: -1;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    #mobile-text2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 200% */
+        background: white;
+        text-align: justify;
+        letter-spacing: -1px;
+
+        color: #000000;
+        padding: 1rem;
+        mix-blend-mode: normal;
+    }
+
+    #mobile-text1 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 86.52%;
+        /* or 22px */
+        /* background: wheat; */
+        justify-content: center;
+        padding: 1rem 0px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+
+        background: linear-gradient(90deg, #00888F 26.64%, #770370 75.5%);
+        /* background: white; */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+    #mob-txt{
+        background: white;
     }
 }
