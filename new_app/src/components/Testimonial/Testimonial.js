@@ -61,8 +61,8 @@ function Testimonial() {
     }, {
       id: 3,
       img: tv2,
-      heading: 'Freewheel',
-      subHead: 'Arlyna Yanti',
+      heading: 'Arlyna Yanti',
+      subHead: 'Freewheel',
       content1: `We appreciate our partnership with 9MediaOnline thanks to their professionalism and understanding of our needs.`,
       content2:''
     },
