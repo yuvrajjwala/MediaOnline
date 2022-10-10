@@ -3,6 +3,8 @@
     width: 70%;
     /* transform: translateY(-12%); */
     margin-left: 17vw;
+    position: relative;
+    left: 5%;
 }
 
 .color {

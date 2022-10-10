@@ -45,9 +45,9 @@ const About = () => {
         <div data-aos="fade-up"
           data-aos-duration="700" data-aos-delay="500" className='black' id='width1'>We are a close-knit and talented group with a shared vision of delivering great results for our clients, as well as ensuring 9MO is a fun and challenging place to work.
           At 9MO, we work with talented people who share our vision and passion for helping our clients be the best they can be. We’re very proud of the team we’ve built – there are more than twenty of us now. But, it still feels like it did when there were just a few of us.  </div>
-        <div data-aos="fade-up"
+        {/* <div data-aos="fade-up"
           data-aos-duration="700" data-aos-delay="600" className='ab1'>Our team is the key to our success.
-        </div>
+        </div> */}
       </div>
 
       <div id='flex-area'>
