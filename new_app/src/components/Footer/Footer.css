@@ -15,6 +15,10 @@
    color: rgba(255, 255, 255, 0.604);
    font-size: 1rem;
 }
+.quick-links a{
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.613);
+}
 .quicklinks-container{
    padding-bottom: 25px;
    border-bottom: 3px solid rgba(255, 255, 255, 0.604);

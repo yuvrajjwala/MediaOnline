@@ -8,6 +8,7 @@ import Customer from './components/customers/customer';
 import LightHeader from './components/LighHeader/LightHeader';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
+import Seller from './components/Seller/Seller';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/influencers" element={<Influencers />}></Route>
           <Route path='/contact' element={<Contact/>}></Route>
+          <Route path='/seller' element={<Seller/>}></Route>
         </Routes>
       </BrowserRouter>
     </>

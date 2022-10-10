@@ -35,7 +35,7 @@ const LightHeader = (props) => {
             {/* <li><a href="">Get in Touch</a></li> */}
           </ul>
           <div>
-            {/* <button id="get-started"><span>{props.buttonText}</span></button> */}
+          <Link to="/contact"> <button id='get-started-2'><span>GET IN TOUCH</span></button></Link>
             <div onClick={opencontainer} id="header-ham-menu"><img id='menu1' src={menu} alt="≣"></img></div>
           </div>
           <div id="mob-menu-container-light">
@@ -51,11 +51,11 @@ const LightHeader = (props) => {
                 <li><Link to="/influencers">Influncers</Link></li>
                 <li><Link to="/clients">Clients</Link></li>
                 <li><Link to="/about">About</Link></li>
-                <li><Link to="/contact">Get in Touch</Link></li>
+                {/* <li><Link to="/contact">Get in Touch</Link></li> */}
 
               </ul>
             </div>
-            <button id="get-started1"><span>GET STARTED</span></button>
+            <Link to="/contact"> <button id="get-started1"><span>GET STARTED</span></button></Link>
           </div>
         </nav>
         <div className='head-head'>{props.text0}</div>

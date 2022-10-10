@@ -61,7 +61,14 @@ nav {
     transition-duration: 0.5s;
     /* margin: 1rem; */
 }
-
+#get-started-2{
+    background: linear-gradient(98.29deg, #0098BB 13.95%, #340031 83.83%);
+    color: white;
+    cursor: pointer;
+}
+#get-started-2 span{
+    color: white;
+}
 #get-started-light {
     transition-duration: 0.5s;
     background: linear-gradient(98.29deg, #0098BB 13.95%, #340031 83.83%);

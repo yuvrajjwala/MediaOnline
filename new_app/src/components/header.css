@@ -54,6 +54,7 @@ nav {
 }
 #get-started{
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 #get-started:hover{
     transform: scale(1.05);
