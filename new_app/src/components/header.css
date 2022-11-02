@@ -26,6 +26,9 @@ nav {
     bottom: 12px;
     display: none;
 }
+#mob-menu-container a{
+    text-decoration: none;
+}
 
 .header nav ul {
     display: flex;

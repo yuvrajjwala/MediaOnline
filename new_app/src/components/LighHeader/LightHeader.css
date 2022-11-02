@@ -55,6 +55,10 @@ nav {
     line-height: 18px;
     /* color:white; */
 }
+#mob-menu-container-light a{
+    text-decoration: none;
+}
+
 
 .header-light nav ul li {
     list-style: none;
@@ -375,6 +379,7 @@ nav {
     .list-mob-cont-light ul{
         -webkit-text-fill-color: transparent;
     }
+    
     .header-light nav ul li a {
         color: transparent;
         text-decoration: none;
@@ -408,7 +413,9 @@ nav {
         margin-top: 2rem;
         font-size: 25px;
     }
-
+    #get-started-2{
+        display: none;
+    }
     .header-light .headText-light {
         font-size: 60px;
         line-height: 80px;

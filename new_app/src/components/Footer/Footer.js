@@ -22,15 +22,15 @@ const Footer = () => {
                <div >
                   <div className='quick-links'>
                      <div className='quicklinks-container'>
-                        <span className='link-footer'><Link to="/"> HOME</Link></span>
-                        <span className='link-footer' id='clients1'><Link to="/clients">CLIENTS</Link></span><br></br>
+                        <span className='link-footer'><a href='/'> HOME</a></span>
+                        <span className='link-footer' id='clients1'><a href="/clients">CLIENTS</a></span><br></br>
                      </div>
                      <div className='quicklinks-container'>
-                        <span className='link-footer'><Link to="/channels">CHANNELS</Link></span>
-                        <span className='link-footer' id='clients2'> <Link to="/influencers">INFLUENCERS</Link></span><br></br>
+                        <span className='link-footer'><a href="/channels">CHANNELS</a></span>
+                        <span className='link-footer' id='clients2'> <a href="/influencers">INFLUENCERS</a></span><br></br>
                      </div>
-                     <span className='link-footer'><Link to="/brands">BRAND</Link></span>
-                     <span className='link-footer'  id='clients3'><Link to="/">RESOURCES</Link></span>
+                     <span className='link-footer'><a href="/brands">BRAND</a></span>
+                     <span className='link-footer'  id='clients3'><a href="/">RESOURCES</a></span>
                   </div>
                   <div></div>
                </div>
@@ -50,9 +50,8 @@ const Footer = () => {
          <div className='footer-bottom'>
                   <ul>
                      <li style={{color:"white"}}>© 2022 9 Media Online</li>
-                     <li>Privacy Policy</li>
-                     <li>Status</li>
-                     <li>Legal</li>
+                     <li><a href="/privacy-policy">Privacy Policy</a></li>
+                     <li><a href="/terms-and-conditons">Terms and conditions</a></li>
                      <li>Do Not Sell My Personal Information</li>
                      <div style={{display:"flex"}}>
                      <li id='twit'><img src={twitter}/></li>

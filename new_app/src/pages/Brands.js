@@ -14,6 +14,7 @@ AOS.init()
 
 
 function Brands() {
+    document.title="Brands | 9mediaOnline";
     return (
         <>
             <Header text1="Future-Safe Ad Solution" text2=" for Brands" subtext1="" buttonText="GET STARTED" />
@@ -67,7 +68,7 @@ function Brands() {
                         channels by activating advanced audiences within premium digital-first
                         environments.
                     </div>
-                    <button  data-aos="fade-up"
+                    <button onClick={()=>window.location.href='/contact'}  data-aos="fade-up"
                 data-aos-duration="700" data-aos-delay="300" id='last-btn1'>CUSTOMERS</button>
                 </div>
             </div>
@@ -92,7 +93,7 @@ function Brands() {
 
 
             <div id='last-head'>Take a look at your clients</div>
-            <button  data-aos="fade-up"
+            <button onClick={()=>window.location.href='/contact'} data-aos="fade-up"
                 data-aos-duration="700" data-aos-delay="300" id='last-btn2'>CUSTOMERS</button>
             <Footer />
         </>

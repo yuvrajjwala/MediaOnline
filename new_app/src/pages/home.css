@@ -80,7 +80,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 29px;
+    line-height: 25px;
     /* or 161% */
     width: 56%;
     margin: auto;
@@ -873,7 +873,7 @@
 }
 
 
-@media only screen and (max-width:1350px) {
+@media only screen and (max-width:1460px) {
     .header .headText{
         font-size: 100px;
         line-height: 130px;
@@ -895,6 +895,9 @@
     #arr5-2-1-1{
         font-size: 50px;
         line-height: 75px;
+    }
+    #heading-margin{
+        margin-top: 80px;
     }
     #arr6-1 {
         width: 90%;
@@ -1005,7 +1008,9 @@
         width: 95%;
         margin: auto;
     }
-
+    #heading-margin{
+        margin-top: 10px;
+    }
     #arr2-2-2 {
         font-size: 15px;
         line-height: 29px;

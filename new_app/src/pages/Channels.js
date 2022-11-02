@@ -16,9 +16,10 @@ import 'aos/dist/aos.css';
 AOS.init()
 
 function Channels() {
-
+    document.title="Channels | 9mediaOnline";
     return (
         <>
+            
             <Header text1="Future-Safe Ad Solution" text2=" for Channels" subtext1="" buttonText="GET STARTED" />
 
             <div id='c-arr1'>
@@ -47,7 +48,11 @@ function Channels() {
                     multiple SSPs, DSPs, Brands and Agencies. This allows impressions to
                     be sold at the highest possible price.
                     Our SSAI unified auction technology uses machine learning to optimize
-                    yield, making it a safe choice for implementing programmatic solutions.</div>
+                    yield, making it a safe choice for implementing programmatic solutions.
+                    
+                    <br></br><br></br><br></br>
+                     <button onClick={()=>window.location.href='/contact'} id='book-a-free'>APPLY NOW</button>
+                    </div>
             </div>
             <span className='line'></span>
             <div className='c-arr2'>
@@ -66,7 +71,7 @@ function Channels() {
                 <div data-aos="fade-up"
                 data-aos-duration="700" data-aos-delay="300" className='area-right'>The company has a dedicated account management team to help you with
                     onboarding and optimization.
-                    <ul>
+                    <ul className='company-dedicated-ul'>
                         <li data-aos="fade-up"
                 data-aos-duration="700" data-aos-delay="300">We continuously monitor ads to ensure that only brand-safe ads are shown to your
                             audience.</li>
@@ -76,8 +81,9 @@ function Channels() {
                 data-aos-duration="700" data-aos-delay="700">Yield analytics with aggregated data and actionable insights</li>
                     </ul>
 
-
-                </div>
+                    <br></br><br></br><br></br>
+                     <button onClick={()=>window.location.href='/contact'} id='book-a-free'>JOIN US</button>
+                    </div>
             </div>
 
 
@@ -131,7 +137,7 @@ function Channels() {
 
             <div data-aos="fade-up"
                 data-aos-duration="700" data-aos-delay="100" id='last-head'>Take a look at your clients</div>
-            <button  data-aos="fade-up"
+            <button onClick={()=>window.location.href='/contact'} data-aos="fade-up"
                 data-aos-duration="700" data-aos-delay="400" id='last-btn'>CUSTOMERS</button>
             <Footer />
         </>

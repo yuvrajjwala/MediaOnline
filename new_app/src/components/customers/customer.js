@@ -4,6 +4,7 @@ import LightHeader from '../LighHeader/LightHeader'
 import './customer.css'
 
 const customer = () => {
+  document.title="Clients | 9mediaOnline";
   return (
     <div>
       <LightHeader text0="OUR CUSTOMERS" text1="A look at some of our partners transforming their business using our services." buttonText="GET STARTED"/>

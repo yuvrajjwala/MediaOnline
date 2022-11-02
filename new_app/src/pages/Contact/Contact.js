@@ -2,10 +2,17 @@ import React from 'react'
 import Footer from '../../components/Footer/Footer';
 import LightHeader from '../../components/LighHeader/LightHeader';
 import './Contact.css';
-import { useRef } from 'react';
+import { useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+  useEffect(() => {
+
+    window.scroll(0,300);
+  }, [])
+ 
+
   const form=useRef();
   const sendEmail = (e) => {
 
@@ -13,13 +20,13 @@ const Contact = () => {
 
     emailjs.sendForm('service_961sa57', 'template_hams89v', form.current, '9bUL6Fn-cC39aB-A0')
       .then((result) => {
-          console.log(result.text);
+          alert("Message Sent Successfully !")
       }, (error) => {
           console.log(error.text);
       });
       e.target.reset();
   };
-
+  document.title="Contact | 9mediaOnline";
 
   return (
     <div>
@@ -41,13 +48,13 @@ const Contact = () => {
           <input type="number" name="phone" id="phone"  required></input>
           <p>Company</p>
           <input type="text" name='companyName' id='companyName' required></input>
-          <p>Company Type</p>
+          {/* <p>Company Type</p>
           <input type="text" name='companyType' id='companyType' required></input>
           <p>Role</p>
           <input type="text" name='Role' id='type' required></input>
           <p>Country</p>
-          <input type="text" name='country' id='country' required></input>
-          <p>How did you hear about us?</p>
+          <input type="text" name='country' id='country' required></input> */}
+          <p>Message</p>
           <input type="text" name='hearAboutUs' id='hearAboutUs' required></input>
           <p>Want to stay in touch with us?</p>
           <select name="stayConnect" id="stayConnect">
@@ -55,12 +62,12 @@ const Contact = () => {
             <option value="no">NO</option>
           </select>
           <br></br>
-          <button type='submit' className='contact-submit-form'>Submit</button>
+          <button style={{cursor:"pointer"}} type='submit' className='contact-submit-form'>Submit</button>
           <h6>To learn how 9Media Online handles your information, please see our <a href='#'>privacy policy</a>.</h6>
           </form>
         </div>
         </div>
-        </div>
+        </div> 
       </div>
       <Footer />
     </div>

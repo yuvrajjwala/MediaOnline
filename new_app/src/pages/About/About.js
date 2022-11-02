@@ -9,6 +9,7 @@ import 'aos/dist/aos.css';
 AOS.init()
 
 const About = () => {
+  document.title="About | 9mediaOnline";
   return (
     <div>
       <LightHeader text0="ABOUT US" text1="The end-to-end solution designed for smart(er)  TV advertising" buttonText="" />

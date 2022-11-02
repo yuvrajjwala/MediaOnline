@@ -146,6 +146,7 @@
    border-bottom: 3px solid rgba(255, 255, 255, 0.604);
    margin-bottom: 25px;
    padding-right: 0px;
+   display: flex;
 }
 .footer-left-main-container{
    width: 100vw;
@@ -173,4 +174,12 @@
    max-width: 300px;
    margin-bottom: 25px;
 }
+}
+.footer-bottom a{
+   color: #ffffff9c;
+   text-decoration: none;
+}
+.footer-bottom a:hover{
+   color: #ffffff;
+  
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import logo from '../../assets/img/home/Logo-light.png';
+import logo from '../../assets/img/home/Logo.svg';
 import back from '../../assets/img/home/Yuv2.png'
 import menu from '../../assets/img/home/menu.png'
 import './LightHeader.css'
@@ -29,7 +29,7 @@ const LightHeader = (props) => {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/channels">Channels</Link></li>
             <li><Link to="/brands">Brands</Link></li>
-            <li><Link to="/influencers">Influncers</Link></li>
+            <li><Link to="/influencers">Influencers</Link></li>
             <li><Link to="/clients">Clients</Link></li>
             <li><Link to="/about">About</Link></li>
             {/* <li><a href="">Get in Touch</a></li> */}
@@ -48,7 +48,7 @@ const LightHeader = (props) => {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/channels">Channels</Link></li>
                 <li><Link to="/brands">Brands</Link></li>
-                <li><Link to="/influencers">Influncers</Link></li>
+                <li><Link to="/influencers">Influencers</Link></li>
                 <li><Link to="/clients">Clients</Link></li>
                 <li><Link to="/about">About</Link></li>
                 {/* <li><Link to="/contact">Get in Touch</Link></li> */}
@@ -61,7 +61,7 @@ const LightHeader = (props) => {
         <div className='head-head'>{props.text0}</div>
         <div className="headText-light">{props.text1} <span>{props.text2}</span></div>
         <div className="subText-light">{props.subtext1}</div>
-        {props.buttonText!=""?(<button id="get-started-light"><span>{props.buttonText}</span></button>):(<div></div>)}
+        {/* {props.buttonText!=""?(<button id="get-started-light"><span>{props.buttonText}</span></button>):(<div></div>)} */}
         
 
       </div>

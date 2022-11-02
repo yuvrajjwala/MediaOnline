@@ -16,6 +16,7 @@ import Footer from '../components/Footer/Footer';
 AOS.init()
 
 function Influencers() {
+    document.title="Influencers | 9mediaOnline";
     return (
         <>
             <LightHeader text1="Launch your own Video Streaming Platform" text2="" subtext1="9MO offers an end-to-end live streaming platform catering to OTT requirements of various industries via On-Demand, Live Streaming and online store." buttonText="GET STARTED" text0="INFLUENCERS," />
