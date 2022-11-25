@@ -33,20 +33,67 @@ import t2021 from '../assets/img/home/2021.svg'
 import t2024 from '../assets/img/home/2024.svg'
 import circle_out from '../assets/img/home/Ellipse3.png'
 import logo1 from '../assets/img/home/MaskGroup.png'
+import logo_9 from '../assets/img/home/logo.png'
+import box1 from '../assets/img/home/box1.svg'
+import box2 from '../assets/img/home/box2.svg'
+import box3 from '../assets/img/home/phone1.svg'
+import box4 from '../assets/img/home/phone2.svg'
 import Testimonial from '../components/Testimonial/Testimonial'
 import sidebg from '../../src/assets/img/home/side-bg.svg'
 import waving from '../../src/assets/img/home/Yuv2.png'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import lockbg from '../../src/assets/img/home/lockbg.png'
 import Footer from '../components/Footer/Footer';
 import LowerContact from '../components/Lowecontact/LowerContact';
+import assesmentbg from '../assets/img/home/assesment-bg.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 AOS.init()
 function Home() {
-  
+
     return (
         <>
 
-            <Header text1="Privacy and Performance" text2=" By Design" subtext1="Smart TV advertising made simple" buttonText="GET STARTED" />
+            <Header text1="Privacy and Performance" text2=" By Design" subtext1="Protect your audience's privacy, Enhance your audience's data" buttonText="GET STARTED" />
+
+            <div className='book-assesment-container'>
+                <img id='assesment-img' src={assesmentbg}></img>
+                <div className='left-assesment-container'>
+                    <p className="left-assesment-heading">
+                        Built for the future of Smart TV Advertising
+                    </p>
+                    <p className='left-assesment-subheading'>
+                        ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES?
+                    </p>
+                    <button id="btn-1">Download The Report</button>
+                </div>
+                <div className='assesemnt-form'>
+                    <div className='lower-conter-right' data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-delay="400">
+                        <div className='get-a-demo-border'>
+                            <div className='get-a-demo-form'>
+                                <p id='get-1'>Book a free assessment</p>
+                                <p>Name</p>
+                                <input name='name' type="text"></input>
+                                <p>Email</p>
+                                <input id='text-input-2' type="text" name='email'></input><br></br>
+                                <button>SUBMIT</button>
+                                <p id='create-account-assement'>or <a href='#'>Create a Free Account</a></p>
+                                <p className='lower-text-contact'>To learn how Clearbit handles your information, please see our <a href='#'>privacy policy.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
             <div data-aos="fade-up"
                 data-aos-duration="1000" data-aos-delay="100" id='arr2'>
                 <div id='arr2-1'>Built for the future of smart TV Advertising</div>
@@ -57,22 +104,98 @@ function Home() {
                         <img src={waving} alt='' id="back12" />
                     </div>
                 </div>
-                <img data-aos="zoom-in"
-                    data-aos-duration="1000" data-aos-delay="100" src={image1} alt='' id="arr2-3" />
+                <div className='tv-container'>
+                    <div className='tvimg'><img data-aos="zoom-in"
+                        data-aos-duration="1000" data-aos-delay="100" src={image1} alt='' id="arr2-3" /></div>
+                    <div className='tv-txt'>
+                        <p className='tv-text-1'>
+                            Protect your audience's privacy,
+                            Enhance your audience's data.
+                        </p>
+                        <div className='tv-text-2-continer'>
+                        <p className='tv-text-2'>
+                            ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES?
+                        </p>
+                        </div>
+                       <div className='tv-text-3-container'>
+                        <p className='tv-text-3'>
+                            Data fragmentation and degradation of third party cookies
+                            has allowed us to harness opportunities and reimagine how
+                            audience targeting, Attribution can be brought forward in a
+                            privacy-focussed manner.
+                        </p>
+                        </div>
+
+                    </div>
+                </div>
+
+
                 <div id='arr2-2'>
-                    <div data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-delay="200" id='arr2-2-1'>ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES?</div>
-                    <div data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-delay="300" id='arr2-2-2'>Data fragmentation and degradation of third party cookies
-                        has allowed us to harness opportunities and reimagine how
-                        audience targeting, Attribution can be brought forward in a
-                        privacy-focussed manner.</div>
-                        
+                   
+
                 </div>
             </div>
+            <div id='arr7' data-aos="fade-up"
+                data-aos-duration="1000">
+                <div id='arr7-1'>TESTIMONIALS</div>
+                <div id='arr7-2'>The Word of Trust</div>
+            </div>
+
+            <Testimonial />
 
 
+            <div id='arr7' data-aos="fade-up"
+                data-aos-duration="1000">
+                <div id='arr7-1'>PRIVACY</div>
+                <div id='protect-text'>"Protect your audience from data leaks while watching our ads."</div>
 
+                <div className='lock-div'>
+                    <img id='lock-bg' src={lockbg}></img>
+                    <div className='lock-div-left'>
+                        <div>
+                        <img src={logo_9}></img>
+                        <button className='button' id="btn-1">GET STARTED</button>
+                        </div>
+                        
+                    </div>
+                    <div className='lock-div-right'>
+                        <div className='lock1'>
+                            <div className='lock-1'>
+                                NO REVERSE ENGINEERING
+                                
+                            </div>
+                            <div className='line-lock'></div>
+                            <p>
+                            We turn your audience data into anonymous identifiers, so advertisers can't reverse-engineer your audience information.
+                            </p>
+                        </div>
+
+                        <div className='lock1'>
+                            <div className='lock-1'>
+                                NO REVERSE ENGINEERING
+                                
+                            </div>
+                            <div className='line-lock'></div>
+                            <p>
+                            We turn your audience data into anonymous identifiers, so advertisers can't reverse-engineer your audience information.
+                            </p>
+                        </div>
+
+                        <div className='lock1'>
+                            <div className='lock-1'>
+                                NO REVERSE ENGINEERING
+                                
+                            </div>
+                            <div className='line-lock'></div>
+                            <p>
+                            We turn your audience data into anonymous identifiers, so advertisers can't reverse-engineer your audience information.
+                            </p>
+                        </div>
+                    
+                        
+                    </div>
+                </div>
+            </div>
 
 
 
@@ -86,16 +209,12 @@ function Home() {
                 </div>
             </div>
 
+            <div id='arr7-1'>CHANNELS</div>
+                <div style={{width:"90vw"}} id='arr7-2'>Safeguard your audience and your revenue.</div>
+
             <div id="arr4">
-                <div id='arr4-1'>
-                    <div data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-delay="100" id='arr4-1-1'>CHANNELS</div>
-                    <div data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-delay="300" id='arr4-1-2'>Safeguard your audience and your
-                        revenue.</div>
-                    <div data-aos="fade-up"
-                        data-aos-duration="1500" data-aos-delay="500" id='arr4-1-3'>Activate your channel audience, without exposing any data. Connect with advertisers securely. Build privacy-safe audience segments. Transfer Data without the worry of data leak.</div>
-                </div>
+        
+                   
                 <div id='arr4-2'>
                     <img data-aos="fade-up"
                         data-aos-duration="1000" data-aos-delay="300" id='arr4-2-1' src={image3} alt='' />
@@ -131,135 +250,32 @@ function Home() {
                         data-aos="fade-up"
                         data-aos-duration="3000" data-aos-delay="600" id='arr4-2-12' src={image14} alt='' />
                 </div>
-                
+                <div className='activate'>
+            Activate your channel audience, without exposing any data. Connect with advertisers securely. Build privacy-safe audience segments. Transfer Data without the worry of data leak.
             </div>
-            <button onClick={()=>window.location.href='/contact'} id='book-a-free'>Book a free Consultation</button>
+            </div>
+            
+            {/* <button onClick={() => window.location.href = '/contact'} id='book-a-free'>Book a free Consultation</button> */}
 
 
 
-            <div id='arr5'>
-                <div id='arr5-1'>
-                    <img id='sidebg' src={sidebg} alt="" />
-                    <div id='arr5-1-1'>
 
-                        <div className='div-flex' id='arr5-1-1-1'>
+            <div id='arr7-1'>PERFORMANCE</div>
+            <div className='arr-subtext'>Maximize your earnings by getting bids that match your audience's value. </div>
+            <div className='arr-p'>
+            We work closely with advertisers to understand which identifiers are exactly producing success.
 
-                            <img data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="100" className='img-block' src={tv} alt='' />
-
-                            <span data-aos="fade-up"
-                                data-aos-duration="2000" data-aos-delay="200" className='head-small'> Run smart tv campaigns in a privacy-safe
-                                environment.</span>
-                        </div>
-                        <div data-aos="fade-up"
-                            data-aos-duration="3000" data-aos-delay="200" id='arr5-1-1-2' className='sub-text'>
-                            Control how much data is exposed to other parties and ensure your
-                            data is kept within an isolated environment.
-                        </div>
-                        {/* <div id='arr5-1-1-3'></div> */}
-                    </div>
-                    <div id='arr5-1-2'>
-                        <div data-aos="fade-up"
-                            data-aos-duration="1000" data-aos-delay="200" className='div-flex' id='arr5-1-2-1'>
-                            <img className='img-block' src={lock} alt='' /><span className='head-small'> Build privacy-safe audience segments</span>
-                        </div>
-                        <div data-aos="fade-up"
-                            data-aos-duration="1000" data-aos-delay="100" id='arr5-1-2-2' className='sub-text'>Generate insights, build look-alike models, and support advanced
-                            measurement. We help build ideal customers cohorts while complying
-                            with privacy regulations.
-                            
-                        </div>
-                        {/* <div id='arr5-1-2-3'></div> */}
-                    </div>
-                    <div id='arr5-1-3'>
-                        <div className='div-flex' id='arr5-1-3-1'>
-                            <img data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="200" className='img-block' src={cash} alt='' /><span data-aos="fade-up"
-                                    data-aos-duration="1000" data-aos-delay="200" className='head-small'> Maximise Ad Revenue and fill rate</span>
-                        </div>
-                        <div data-aos="fade-up"
-                            data-aos-duration="1000" data-aos-delay="400" id='arr5-1-3-2' className='sub-text'>Maximise revenue using our hybrid auction system that allows for
-                            competition between SSPs, DSPs, Brands and Agencies through server
-                            side unified auction ensuring maximum revenue and fill.</div>
-                        {/* <div id='arr5-1-3-3'></div> */}
-                    </div>
-                </div>
-                <div id='arr5-2'>
-                    <div id='arr5-2-1'>
-                        <div id='arr5-2-1-1'>
-                            <span data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="200">Transfer information without the worry of data leak.</span>
-                        </div>
-                        <div className='div-flex' id='arr5-2-1-2'>
-                            <img data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="100" className='img-block' src={hamburger} alt='' />
-                        </div>
-                    </div>
-                    <div data-aos="fade-up"
-                        data-aos-duration="2000" data-aos-delay="300" id='arr5-2-2'>9MO ensures safety of audience data by converting personally
-                        identifiable information into unique identifiers.
-                        A marketer cannot reverse engineer our unique IDs to personally
-                        identifiable information (PII).</div>
-                </div>
+The information you provide is used to match and enhance your audience data points with identifiers relevant to the advertiser, allowing them to get the most out of your audience data and compete in a privacy-focused environment.
             </div>
 
-            <div data-aos="fade-up"
-                data-aos-duration="1000" id='arr6'>
-                <div id='arr6-1'>
-                    <img src={overflow} alt='' id='arr6-img' />
-                    <div id='arr6-1-1-1' data-aos="fade-up"
-                        data-aos-duration="1000" data-aos-delay="400">Brands</div>
-                    <div id='arr6-1-1'>
-                        <div id='arr6-1-1-2'>
-                            <div className='heading' data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="100">High Precision Targeting</div>
-                            <div className='subHeading' data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="300">Match your own audience data across streaming channels in a privacy-safe,
-                                secure environment with unprecedented audience insights</div>
-                        </div>
-                        <div id='arr6-1-1-3'>
-                            <div className='heading' id='heading-margin' data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="600">Cross Channel Cookie-less Conversions</div>
-                            <div className='subHeading' data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="600">9MO tracks post-click conversions on an advertiser’s site by appending
-                                privacy-friendly IDs through cross channel targeting.</div>
-                        </div>
-                    </div>
-                    <div id='arr6-1-2'>
-                        <div className='heading' data-aos="fade-up"
-                            data-aos-duration="1000" data-aos-delay="400">A Single point of Access</div>
-                        <div className='subHeading' data-aos="fade-up"
-                            data-aos-duration="1000" data-aos-delay="500">Reach and measure your audience across channels with
-                            precision, scale, and transparency in a privacy-friendly way.
-                            Optimize your media investments with a view of reach, attribution and
-                            incremental impressions across TV Channels— all within a single
-                            dashboard.</div>
-                    </div>
-                    
-                    <div id='arr6-2'>
-                        <div id='arr6-2-1'>
-                            <img data-aos="fade-up"
-                                data-aos-duration="1000" data-aos-delay="400" src={privateMarket} alt='' id='arr6-2-img' />
-                        </div>
-                        <div id='arr6-2-2' >
-                            <div id='arr6-2-2-1' data-aos="fade-up"
-                                data-aos-duration="2000" data-aos-delay="300">Channels</div>
-                            <div id='arr6-2-2-2' data-aos="fade-up"
-                                data-aos-duration="2000" data-aos-delay="500">Brands can buy PMP inventory easily and gain immediate access to 1400 pre-negotiated deals for connected TV.
-                            </div>
-                            <button onClick={()=>window.location.href='/contact'} id='arr6-2-2-3' data-aos="fade-up"
-                                data-aos-duration="3000" data-aos-delay="600">LEARN MORE</button>
-                        </div>
-                    </div>
-                </div>
+            <div className='box-container'>
+                <img className='img-drag' src={box1} draggable="false"></img>
+                <img className='img-drag' src={box2} draggable="false"></img>
+                <img className='img-drag1' src={box3} draggable="false"></img>
+                <img className='img-drag1' src={box4} draggable="false"></img>
+            </div>
 
-            </div>
-            <div id='arr7' data-aos="fade-up"
-                data-aos-duration="1000">
-                <div id='arr7-1'>TESTIMONIALS</div>
-                <div id='arr7-2'>The Word of Trust</div>
-            </div>
-            <Testimonial />
+     
 
             <div data-aos="fade-up"
                 data-aos-duration="1000" id='arr8-0'>How did we get here?</div>
@@ -267,22 +283,22 @@ function Home() {
                 <div id='arr8-1'>
                     <div id='timeline-left'>
                         <img data-aos="fade-up"
-                            data-aos-duration="500" data-aos-delay="300"  id='t2016' className='relative' src={t2016} alt=''  draggable='false' />
+                            data-aos-duration="500" data-aos-delay="300" id='t2016' className='relative' src={t2016} alt='' draggable='false' />
                         <img data-aos="fade-up"
-                            data-aos-duration="500" data-aos-delay="500"  id='t2018' className='relative' src={t2018} alt=''  draggable='false' />
+                            data-aos-duration="500" data-aos-delay="500" id='t2018' className='relative' src={t2018} alt='' draggable='false' />
                         <img data-aos="fade-up"
-                            data-aos-duration="500" id='t2020' className='relative' data-aos-delay="2500" src={t2020} alt=''  draggable='false' />
+                            data-aos-duration="500" id='t2020' className='relative' data-aos-delay="2500" src={t2020} alt='' draggable='false' />
                         <img data-aos="fade-up"
-                            data-aos-duration="1000" id='t2024' className='' data-aos-delay="3000" src={t2024} alt=''  draggable='false' />
+                            data-aos-duration="1000" id='t2024' className='' data-aos-delay="3000" src={t2024} alt='' draggable='false' />
                     </div>
-                    <img src={timeline} alt=''   draggable='false'/>
+                    <img src={timeline} alt='' draggable='false' />
                     <div id='timeline-right'>
                         <img data-aos="fade-up"
-                            data-aos-duration="500" data-aos-delay="1000"  id='t2017' className='relative' src={t2017} alt=''      draggable='false'/>
+                            data-aos-duration="500" data-aos-delay="1000" id='t2017' className='relative' src={t2017} alt='' draggable='false' />
                         <img data-aos="fade-up"
-                            data-aos-duration="500" id='t2019' className='relative' data-aos-delay="2000" src={t2019} alt=''  draggable='false' />
+                            data-aos-duration="500" id='t2019' className='relative' data-aos-delay="2000" src={t2019} alt='' draggable='false' />
                         <img data-aos="fade-up"
-                            data-aos-duration="500"  id='t2021' className='relative' data-aos-delay="3000" src={t2021} alt=''      draggable='false'/>
+                            data-aos-duration="500" id='t2021' className='relative' data-aos-delay="3000" src={t2021} alt='' draggable='false' />
                     </div>
                 </div>
                 <div id='arr8-2'>
@@ -294,13 +310,41 @@ function Home() {
                     </div>
                     <div id='arr8-2-2'>
                         <div id='arr8-2-2-1'>We are prepared for a world without third-party cookies, are you?</div>
-                        <button onClick={()=>window.location.href='/contact'} id='arr8-2-2-2'>Learn More</button>
+                        <button onClick={() => window.location.href = '/contact'} id='arr8-2-2-2'>Learn More</button>
                         <div id='arr8-2-2-3'>9MO is developing new tools, features and strategy partnerships to drive scale and performance for effective privacy-compliant advertising solutions.
                         </div>
                     </div>
                 </div>
             </div>
-            <LowerContact />
+            
+
+            <div>
+
+                
+      <p  className='heading-lower-contact' data-aos="fade-up"
+     data-aos-duration="1000">98% of our ads are delivered to individuals,<br></br> not to cookies.</p>
+      <div className='lower-conten-box'>
+     
+         <div  className='lower-conter-right1' data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="400">
+                         <div className='last-head'>Take the first step</div>
+          <div className='get-a-demo-border'>
+           <div className='get-a-demo-form'>
+              <p id='get-1'>Get a Demo</p>
+              <p>Name</p>
+              <input name='name' type="name"></input>
+              <p>Email</p>
+              <input name='email' type="email"></input>
+              <p>Message</p>
+              <input id='input-2' type="text"></input><br></br>
+              <button>SUBMIT</button>
+              <p className='lower-text-contact'>To learn how Clearbit handles your information, please see our <a href='#'>privacy policy.</a></p>
+           </div>
+         </div>
+         </div>
+      </div>
+    </div>
+
             <Footer />
 
         </>

@@ -34,17 +34,13 @@ function Header(props) {
                     <div className="logo"><img src={logo} alt="" /></div>
                     <ul>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/channels">Channels</Link></li>
-                        <li><Link to="/brands">Brands</Link></li>
-                        <li><Link to="/influencers">Influencers</Link></li>
-                        <li><Link to="/clients">Clients</Link></li>
-                        <li><Link to="/about">About</Link></li>
-                        {/* <li><Link to="/contact">Get in touch</Link></li> */}
-                        {/* <li><Link to="/resources">Resources</Link></li> */}
-                        {/* <li><a href="">Get in Touch</a></li> */}
+                        <li><Link to="/">Testimonials</Link></li>
+                        <li><Link to="/">Privacy</Link></li>
+                        <li><Link to="/">Performance</Link></li>
+                  
                     </ul>
                     <div>
-                        <Link to="/contact"> <button id="get-started"><span>GET IN TOUCH</span></button></Link>
+                        <Link to="/"> <button id="get-started"><span>CONTACT US</span></button></Link>
                         <div onClick={opencontainer} id="header-ham-menu"><img src={menu} alt="≣"></img></div>
                     </div>
                     <div id="mob-menu-container">
@@ -54,16 +50,13 @@ function Header(props) {
                         </div>
                         <div className="list-mob-cont">
                             <ul>
-                                <li><Link to="/">Home</Link></li>
-                                <li><Link to="/channels">Channels</Link></li>
-                                <li><Link to="/brands">Brands</Link></li>
-                                <li><Link to="/influencers">Influencers</Link></li>
-                                <li><Link to="/clients">Clients</Link></li>
-                                <li><Link to="/about">About</Link></li>
-                                {/* <li><Link to="/contact">Get in Touch</Link></li> */}
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/">Testimonials</Link></li>
+                            <li><Link to="/">Privacy</Link></li>
+                            <li><Link to="/">Performance</Link></li>
                             </ul>
                             <div>
-                            <Link to="/contact"><button id="get-started1"><span>GET IN TOUCH</span></button></Link>
+                            <Link to="/"><button id="get-started1"><span>Conact Us</span></button></Link>
                             </div>
                         </div>
                     </div>

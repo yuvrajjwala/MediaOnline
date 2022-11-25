@@ -6,7 +6,7 @@ import tv1 from "../../assets/img/home/image27.png";
 import tv2 from "../../assets/img/home/image28.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import testBg from "../../assets/img/home/Group52.png";
+import testBg from "../../assets/img/home/bg-cloud.png";
 
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import './Testimonial.css'

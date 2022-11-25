@@ -58,6 +58,9 @@ nav {
 #get-started{
     transition-duration: 0.5s;
     cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
 }
 #get-started:hover{
     transform: scale(1.05);
@@ -65,10 +68,7 @@ nav {
 }
 .header nav ul li:hover {
     transform: scale(1.05);
-    
-
 }
-
 .header .headText {
     font-family: 'Inter';
     font-style: normal;
@@ -107,9 +107,7 @@ nav {
 }
 
 .header button {
-    /* margin-left: 10rem;
-    margin-top: 2rem; */
-    background: #FFFFFF;
+    color: white;
     border-radius: 5px;
     width: 155px;
     border: none;
@@ -125,7 +123,7 @@ nav {
     font-size: 18px;
     line-height: 22px;
     font-size: 12px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 #back{
