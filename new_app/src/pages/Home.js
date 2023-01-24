@@ -59,7 +59,7 @@ function Home() {
                 <img id='assesment-img' src={assesmentbg}></img>
                 <div className='left-assesment-container'>
                     <p className="left-assesment-heading">
-                        Built for the future of Smart TV Advertising Aarav
+                        Built for the future of Smart TV Advertising
                     </p>
                     <p className='left-assesment-subheading'>
                         ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES?
