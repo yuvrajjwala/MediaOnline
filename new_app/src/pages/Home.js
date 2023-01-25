@@ -62,7 +62,7 @@ function Home() {
                         Built for the future of Smart TV Advertising
                     </p>
                     <p className='left-assesment-subheading'>
-                        ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES?
+                        ARE YOU PREPARED FOR A WORLD WITHOUT THIRD-PARTY COOKIES? Test
                     </p>
                     <button id="btn-1">Download The Report</button>
                 </div>
